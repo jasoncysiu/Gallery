@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h4>Model Functionalities: <%= queries.model_functionalities %></h4>
+        <h4>App Categories: <%= queries.app_categories %></h4>
+        <h4>Interaction Types: <%= queries.interaction_types %></h4>
+        <h4>Interaction Styles: <%= queries.interaction_style %></h4>
+
+        <a class="btn btn-secondary mb-3" href="/">Back</a>
+
+        <div class="row">
+            <div class="image-grid">
+                <% data.forEach((data) => { %>
+                    <img src="<%= data.image_name %>" alt="image <%= data.id %>" width="200" height="200">
+                <% }); %>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "model_functionalities": "2",
+        "app_categories": "2", 
+        "interaction_types": "2",
+        "interaction_style": "2",
+        "image_name": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZjIhQYJAKltl9QjqqSQ4vjk9goWnXTt1zjNaTF4gYzdoGTYOj"
+    },
+    {
+        "id": 2,
+        "model_functionalities": "2",
+        "app_categories": "2", 
+        "interaction_types": "2",
+        "interaction_style": "2",
+        "image_name": "https://e3.365dm.com/19/11/768x432/2371911180919000507_4840049.jpg?20191118193927"
+    },
+    {
+        "id": 3,
+        "model_functionalities": "1",
+        "app_categories": "2", 
+        "interaction_types": "3",
+        "interaction_style": "4",
+        "image_name": "https://m.media-amazon.com/images/M/MV5BMjUxMjE4MTQxMF5BMl5BanBnXkFtZTcwNzc2MDM1NA@@._V1_UY1200_CR125,0,630,1200_AL_.jpg"
+    },
+    {
+        "id": 4,
+        "model_functionalities": "1",
+        "app_categories": "1", 
+        "interaction_types": "1",
+        "interaction_style": "1",
+        "image_name": "https://media1.popsugar-assets.com/files/thumbor/WKtUknaQaTiKyXhcRc3h-HD0BcQ/0x73:1640x1713/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/10/26/002/n/1922398/03e845f35f9755e6aa1b97.06354587_/i/Nicolas-Cage.jpg"
+    },
+    {
+        "id": 5,
+        "model_functionalities": "1",
+        "app_categories": "1", 
+        "interaction_types": "1",
+        "interaction_style": "1",
+        "image_name": "https://hollywoodlife.com/wp-content/uploads/2022/01/Nicolas-Cages-Kids-ftr1.jpg?w=620"
+    },
+    {
+        "id": 6,
+        "model_functionalities": "1",
+        "app_categories": "1", 
+        "interaction_types": "1",
+        "interaction_style": "1",
+        "image_name": "https://wegotthiscovered.com/wp-content/uploads/2020/08/Nicolas.jpg"
+    },
+    {
+        "id": 7,
+        "model_functionalities": "1",
+        "app_categories": "1", 
+        "interaction_types": "1",
+        "interaction_style": "1",
+        "image_name": "https://variety.com/wp-content/uploads/2021/09/nicolas-cage.jpg?w=681&h=383&crop=1"
+    },
+    {
+        "id": 8,
+        "model_functionalities": "1",
+        "app_categories": "1", 
+        "interaction_types": "1",
+        "interaction_style": "1",
+        "image_name": "https://www.nme.com/wp-content/uploads/2021/11/Nicolas-Cage-main-new.jpg"
+    }
+]

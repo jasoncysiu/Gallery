@@ -7,10 +7,13 @@ const url = require('url');
 const app = express();
 
 const { validateSearch } = require('./modules/validation');
+const { searchData } = require('./modules/search');
 
 // Set up forms
 app.use(bodyParser.json()); // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // to support URL-encoded bodies 
+
+app.use(express.static('public'))
 
 // Set up the view engine
 app.set('views', path.join(__dirname, 'views'));
@@ -18,7 +21,6 @@ app.set('view engine', 'ejs');
 app.engine('ejs', require('ejs').renderFile);
 
 // Routes
-
 app.get('/', (req, res) => {
   res.render('pages/index');
 });
@@ -32,7 +34,11 @@ app.post('/', (req, res) => {
 
 app.get("/search", (req, res) => {
     if (validateSearch(req.query)) {
-        res.json(req.query)
+        const searchedData = searchData(req.query);
+        console.log(searchedData.length);
+        searchedData.length > 0 
+            ? res.render("pages/search", { queries: req.query, data: searchedData }) 
+            : res.json({code: 204, message: "No results"});
     } else {
         res.json({ code: 400, message: "Invalid search parameters"})
     }
