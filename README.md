@@ -3,9 +3,9 @@
 ## Intial Setup
 
 - Clone the directory
-- Navigate into the project root directory and run `npm install`s
+- Navigate into the project root directory and run: `npm install`
 
 ## To Run
 
-- For production: run `npm start`
-- For development: run `npm run dev`
+- For production: `npm start`
+- For development: `npm run dev`

@@ -6,6 +6,8 @@ const url = require('url');
 // Define Server
 const app = express();
 
+const { validateSearch } = require('./modules/validation');
+
 // Set up forms
 app.use(bodyParser.json()); // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // to support URL-encoded bodies 
@@ -29,7 +31,11 @@ app.post('/', (req, res) => {
 });
 
 app.get("/search", (req, res) => {
-    res.json(req.query)
+    if (validateSearch(req.query)) {
+        res.json(req.query)
+    } else {
+        res.json({ code: 400, message: "Invalid search parameters"})
+    }
 });
 
 app.listen(8000);
