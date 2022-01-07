@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col">
+                <h1 class="mt-5">Hello World!</h1>
+                <form method="post">
+                    <div class="form-group">
+                        <label for="model_functionalities">Model Functionalities:</label>
+                        <select class="form-control" id="model_functionalities" name="model_functionalities">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <label for="app_categories">App Categories:</label>
+                        <select class="form-control" id="app_categories" name="app_categories">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <label for="interaction_types">Interaction Types:</label>
+                        <select class="form-control" id="interaction_types" name="interaction_types">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <label for="interaction_style">Interaction Style:</label>
+                        <select class="form-control" id="interaction_style" name="interaction_style">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-primary mt-3" type="submit">Search</button>
+
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</body>
