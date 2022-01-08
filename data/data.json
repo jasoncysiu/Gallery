@@ -4,7 +4,7 @@
     "app_categories": "Communication",
     "interaction_type": "Static",
     "interaction_style": "Photo editor",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Ash_messenger.gif",
     "package_name": "com.wAshMessenger_8787254"
   },
@@ -13,7 +13,7 @@
     "app_categories": "Communication",
     "interaction_type": "Static",
     "interaction_style": "Photo editor",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Ash_messenger.gif",
     "package_name": "com.wAshMessenger_8787254"
   },
@@ -22,7 +22,7 @@
     "app_categories": "Photography",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Camera_S9.gif",
     "package_name": "com.camera.galaxyx"
   },
@@ -31,7 +31,7 @@
     "app_categories": "Photography",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Camera_S9.gif",
     "package_name": "com.camera.galaxyx"
   },
@@ -40,7 +40,7 @@
     "app_categories": "Education",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "Cat_Scanner.gif",
     "package_name": "com.siwalusoftware.catscanner"
   },
@@ -49,7 +49,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
-    "Representation": "Aural",
+    "representation": "Aural",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -58,7 +58,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
-    "Representation": "Aural",
+    "representation": "Aural",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -67,7 +67,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Camera adjustment",
-    "Representation": "Visual, Haptic",
+    "representation": "Visual, Haptic",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -76,7 +76,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Camera adjustment",
-    "Representation": "Visual, Haptic",
+    "representation": "Visual, Haptic",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -85,7 +85,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -94,7 +94,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -103,7 +103,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -112,7 +112,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -121,7 +121,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -130,7 +130,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "Freja_ID.gif",
     "package_name": "com.verisec.mobile.frejaeid"
   },
@@ -139,7 +139,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
-    "Representation": "Aural",
+    "representation": "Aural",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -148,7 +148,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
-    "Representation": "Aural",
+    "representation": "Aural",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -157,7 +157,7 @@
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -166,7 +166,7 @@
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -175,7 +175,7 @@
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Camera adjustment",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -184,7 +184,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
-    "Representation": "Aural",
+    "representation": "Aural",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -193,7 +193,7 @@
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Camera adjustment",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -202,7 +202,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
-    "Representation": "Aural",
+    "representation": "Aural",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -211,7 +211,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -220,7 +220,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -229,7 +229,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
-    "Representation": "Visual, Aural, Text",
+    "representation": "Visual, Aural, Text",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -238,7 +238,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
-    "Representation": "Visual, Aural, Text",
+    "representation": "Visual, Aural, Text",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -247,7 +247,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -256,7 +256,7 @@
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -265,7 +265,7 @@
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Vibration",
-    "Representation": "Haptic",
+    "representation": "Haptic",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -274,7 +274,7 @@
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Vibration",
-    "Representation": "Haptic",
+    "representation": "Haptic",
     "image_name": "GlassOn.jpg",
     "package_name": "com.sixoversix.copyglass"
   },
@@ -283,7 +283,7 @@
     "app_categories": "Entertainment",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
-    "Representation": "None",
+    "representation": "None",
     "image_name": "Horoscope_no-inter.gif",
     "package_name": "horoscope.zodiac.love.master"
   },
@@ -292,7 +292,7 @@
     "app_categories": "Entertainment",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
-    "Representation": "None",
+    "representation": "None",
     "image_name": "Horoscope_no-inter.gif",
     "package_name": "horoscope.zodiac.love.master"
   },
@@ -301,7 +301,7 @@
     "app_categories": "Entertainment",
     "interaction_type": "Static",
     "interaction_style": "Camera frame",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Horoscope_static.gif",
     "package_name": "horoscope.zodiac.love.master"
   },
@@ -310,7 +310,7 @@
     "app_categories": "Entertainment",
     "interaction_type": "Static",
     "interaction_style": "Camera frame",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Horoscope_static.gif",
     "package_name": "horoscope.zodiac.love.master"
   },
@@ -319,7 +319,7 @@
     "app_categories": "Social",
     "interaction_type": "No interaction",
     "interaction_style": "No interaction with hardware input",
-    "Representation": "None",
+    "representation": "None",
     "image_name": "Mecoo.gif",
     "package_name": "com.mecoolive.chat"
   },
@@ -328,7 +328,7 @@
     "app_categories": "Social",
     "interaction_type": "No interaction",
     "interaction_style": "No interaction with hardware input",
-    "Representation": "None",
+    "representation": "None",
     "image_name": "Mecoo.gif",
     "package_name": "com.mecoolive.chat"
   },
@@ -337,7 +337,7 @@
     "app_categories": "Social",
     "interaction_type": "No interaction",
     "interaction_style": "No interaction with hardware input",
-    "Representation": "None",
+    "representation": "None",
     "image_name": "Mecoo.gif",
     "package_name": "com.mecoolive.chat"
   },
@@ -346,7 +346,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -355,7 +355,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -364,7 +364,7 @@
     "app_categories": "Productivity",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
-    "Representation": "None",
+    "representation": "None",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -373,7 +373,7 @@
     "app_categories": "Productivity",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
-    "Representation": "None",
+    "representation": "None",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -382,7 +382,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Photo editor",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -391,7 +391,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Photo editor",
-    "Representation": "Visual",
+    "representation": "Visual",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -400,7 +400,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
-    "Representation": "Text",
+    "representation": "Text",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -409,7 +409,7 @@
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
-    "Representation": "Text",
+    "representation": "Text",
     "image_name": "Scanscan.gif",
     "package_name": "com.uzero.baimiaog"
   },
@@ -418,7 +418,7 @@
     "app_categories": "Finance",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "Unicred.gif",
     "package_name": "com.unicredit"
   },
@@ -427,7 +427,7 @@
     "app_categories": "Finance",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
-    "Representation": "Text, Visual",
+    "representation": "Text, Visual",
     "image_name": "Unicred.gif",
     "package_name": "com.unicredit"
   }
