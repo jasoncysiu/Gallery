@@ -54,7 +54,7 @@ app.get("/search", (req, res) => {
     const searchedData = searchData(query);
     searchedData.length > 0
       ? res.render("pages/search", { queries: query, data: searchedData })
-      : res.render("pages/error", { code: 204, message: "No results" });
+      : res.render("pages/error", { code: 204, message: "No results. Currently we are still updating the new interactions." });
   } else {
     res.render("pages/error", {
       code: 400,
