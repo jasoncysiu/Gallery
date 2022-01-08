@@ -1,71 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <%- include('../partials/head'); %>
-</head>
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col card p-4 mt-4">
-                <h1>Gallery Search</h1>
-                <form method="post">
-                    <div class="form-group">
-                        <label for="model_functionalities">Model Functionalities:</label>
-                        <select class="form-control" id="model_functionalities" name="model_functionalities">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-
-                    <br>
-
-                    <div class="form-group">
-                        <label for="app_categories">App Categories:</label>
-                        <select class="form-control" id="app_categories" name="app_categories">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-
-                    <br>
-
-                    <div class="form-group">
-                        <label for="interaction_types">Interaction Types:</label>
-                        <select class="form-control" id="interaction_types" name="interaction_types">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-
-                    <br>
-
-                    <div class="form-group">
-                        <label for="interaction_style">Interaction Style:</label>
-                        <select class="form-control" id="interaction_style" name="interaction_style">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-
-                    <button class="btn btn-primary mt-3" type="submit">Search</button>
-
-                </form>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col card p-4 mt-4">
+          <h1>Gallery Search</h1>
+          <form method="post">
+            <div class="form-group">
+              <label for="model_functionalities">Model Functionalities:</label>
+              <select
+                class="form-control"
+                id="model_functionalities"
+                name="model_functionalities"
+              >
+                <% functionalities.forEach((functionality) => { %>
+                <option value="<%= functionality %>">
+                  <%= functionality %>
+                </option>
+                <% }); %>
+              </select>
             </div>
-            <div class="col-3"></div>
+
+            <br />
+
+            <div class="form-group">
+              <label for="app_categories">App Categories:</label>
+              <select
+                class="form-control"
+                id="app_categories"
+                name="app_categories"
+              >
+                <% categories.forEach((category) => { %>
+                <option value="<%= category %>"><%= category %></option>
+                <% }); %>
+              </select>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+              <label for="interaction_style">Interaction Style:</label>
+              <select
+                class="form-control"
+                id="interaction_style"
+                name="interaction_style"
+              >
+                <!-- <% interactionStyles.forEach((style) => { %>
+                <option value="interactionStyle"><%= style %></option>
+                <% }); %> -->
+                <optgroup label="No Interaction">
+                  <option value="No Interaction_Importing files">
+                    Importing files
+                  </option>
+                  <option
+                    value="No Interaction_No interaction with hardware input"
+                  >
+                    No interaction with hardware input
+                  </option>
+                </optgroup>
+                <optgroup label="Static Interaction">
+                  <option value="Static_Pop-up messages">
+                    Pop-up messages
+                  </option>
+                  <option value="Static_Instruction">Instruction</option>
+                  <option value="Static_Camera frame">Camera frame</option>
+                  <option value="Static_Illustration of correct input">
+                    Illustration of correct input
+                  </option>
+                  <option value="Static_Flashlight">Flashlight</option>
+                  <option value="Static_Vibration">Vibration</option>
+                  <option value="Static_Auditory feedback">
+                    Auditory feedback
+                  </option>
+                </optgroup>
+                <optgroup label="Dynamic Interaction">
+                  <option value="Dynamic_Text suggestion">
+                    Text suggestion
+                  </option>
+                  <option value="Dynamic_Camera adjustment">
+                    Camera adjustment
+                  </option>
+                  <option value="Dynamic_Photo editor">Photo editor</option>
+                  <option value="Dynamic_Auto focusing object">
+                    Auto focusing object
+                  </option>
+                  <option value="Dynamic_Flashlight">Flashlight</option>
+                  <option value="Dynamic_Auditory feedback">
+                    Auditory feedback
+                  </option>
+                </optgroup>
+              </select>
+            </div>
+
+            <button class="btn btn-primary mt-3" type="submit">Search</button>
+          </form>
         </div>
+        <div class="col-3"></div>
+      </div>
     </div>
-</body>
+  </body>
+</html>

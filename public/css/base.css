@@ -1,6 +1,79 @@
 .image-grid {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px;
+  row-gap: 40px;
+}
+
+.category-pill {
+  background-color: rgb(173, 216, 230);
+  padding: 8px 16px 8px 16px;
+  margin: 8px;
+  border-radius: 20px;
+}
+
+.search-pills {
+  text-align: center;
+}
+
+.btn-back {
+  padding: 8px 30px;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+.btn-back:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.gallery-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Modal */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card.search-result {
+  height: fit-content;
+  width: 300px;
 }
