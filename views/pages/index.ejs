@@ -11,22 +11,9 @@
         <div class="col card p-4 mt-4">
           <h1>Gallery Search</h1>
           <form method="post">
-            <div class="form-group">
-              <label for="model_functionalities">Model Functionalities:</label>
-              <select
-                class="form-control"
-                id="model_functionalities"
-                name="model_functionalities"
-              >
-                <% functionalities.forEach((functionality) => { %>
-                <option value="<%= functionality %>">
-                  <%= functionality %>
-                </option>
-                <% }); %>
-              </select>
-            </div>
 
-            <br />
+
+
 
             <div class="form-group">
               <label for="app_categories">App Categories:</label>
@@ -35,6 +22,7 @@
                 id="app_categories"
                 name="app_categories"
               >
+              <option disabled="disabled" selected="selected">Please select styles</option>
                 <% categories.forEach((category) => { %>
                 <option value="<%= category %>"><%= category %></option>
                 <% }); %>
@@ -43,6 +31,22 @@
 
             <br />
 
+            <div class="form-group">
+              <label for="model_functionalities">Model Functionalities:</label>
+              <select
+                class="form-control"
+                id="model_functionalities"
+                name="model_functionalities"
+              >
+              <option disabled="disabled" selected="selected">Please select styles</option>
+                <% functionalities.forEach((functionality) => { %>
+                <option value="<%= functionality %>">
+                  <%= functionality %>
+                </option>
+                <% }); %>
+              </select>
+            </div>
+            <br>
             <div class="form-group">
               <label for="interaction_style">Interaction Style:</label>
               <select
@@ -53,8 +57,9 @@
                 <!-- <% interactionStyles.forEach((style) => { %>
                 <option value="interactionStyle"><%= style %></option>
                 <% }); %> -->
+                <option disabled="disabled" selected="selected">Please select styles</option>
                 <optgroup label="No Interaction">
-                  <option value="No Interaction_Importing files">
+                  <option value="No Interaction_Importing files" >
                     Importing files
                   </option>
                   <option
@@ -64,7 +69,7 @@
                   </option>
                 </optgroup>
                 <optgroup label="Static Interaction">
-                  <option value="Static_Pop-up messages">
+                  <option value="Static_Pop-up messages" >
                     Pop-up messages
                   </option>
                   <option value="Static_Instruction">Instruction</option>

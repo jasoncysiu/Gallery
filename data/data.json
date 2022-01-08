@@ -1,514 +1,434 @@
 [
   {
-    "model_functionalities": "Object detection and tracking",
-    "app_categories": "Social",
-    "interaction_type": "No interaction",
-    "interaction_style": "No interaction with hardware input",
-    "representation": "None",
-    "image_name": "Mecoo.gif"
-  },
-  {
-    "model_functionalities": "Object detection and tracking",
-    "app_categories": "Finance",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Visual",
-    "image_name": "Unicred.gif"
-  },
-  {
-    "model_functionalities": "Object detection and tracking",
-    "app_categories": "Finance",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Text",
-    "image_name": "Unicred.gif"
-  },
-  {
-    "model_functionalities": "image segmentation",
-    "app_categories": "Productivity",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Photo editor",
-    "representation": "Visual",
-    "image_name": "Scanscan.gif"
-  },
-  {
-    "model_functionalities": "image segmentation",
-    "app_categories": "Productivity",
-    "interaction_type": "No interaction",
-    "interaction_style": "Importing files",
-    "representation": "None",
-    "image_name": "Scanscan.gif"
-  },
-  {
-    "model_functionalities": "image segmentation",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Text",
-    "image_name": "Scanscan.gif"
-  },
-  {
-    "model_functionalities": "image segmentation",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Camera adjustment",
-    "representation": "Visual",
-    "image_name": "Scanscan.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
+    "Model_functionalities": "Image labeling",
     "app_categories": "Communication",
     "interaction_type": "Static",
     "interaction_style": "Photo editor",
-    "representation": "Visual",
-    "image_name": "Ash_messenger.gif"
+    "Representation": "Visual",
+    "image_name": "Ash_messenger.gif",
+    "package_name": "com.wAshMessenger_8787254"
   },
   {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Education",
-    "interaction_type": "Static",
-    "interaction_style": "Illustration of correct input",
-    "representation": "Visual",
-    "image_name": "Cat_Scanner.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Entertainment",
-    "interaction_type": "Static",
-    "interaction_style": "Camera frame",
-    "representation": "Visual",
-    "image_name": "Horoscope.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Entertainment",
-    "interaction_type": "No interaction",
-    "interaction_style": "Importing files",
-    "representation": "None",
-    "image_name": "Horoscope_static.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Entertainment",
-    "interaction_type": "No interaction",
-    "interaction_style": "Importing files",
-    "representation": "None",
-    "image_name": "Horoscope.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Social",
-    "interaction_type": "No interaction",
-    "interaction_style": "No interaction with hardware input",
-    "representation": "None",
-    "image_name": "Mecoo.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Finance",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Visual",
-    "image_name": "Unicred.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Finance",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Text",
-    "image_name": "Unicred.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Education",
-    "interaction_type": "Static",
-    "interaction_style": "Illustration of correct input",
-    "representation": "Text",
-    "image_name": "Cat_Scanner.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Vibration",
-    "representation": "Haptic",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Text",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Text",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Illustration of correct input",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Auditory feedback",
-    "representation": "Aural",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Camera adjustment",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Auto focusing object",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Camera adjustment",
-    "representation": "Aural",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Aural",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Text",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Camera adjustment",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Camera adjustment",
-    "representation": "Haptic",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Auditory feedback",
-    "representation": "Aural",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Illustration of correct input",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Text",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
+    "Model_functionalities": "Face detection",
     "app_categories": "Communication",
     "interaction_type": "Static",
     "interaction_style": "Photo editor",
-    "representation": "Visual",
-    "image_name": "Ash_messenger.gif"
+    "Representation": "Visual",
+    "image_name": "Ash_messenger.gif",
+    "package_name": "com.wAshMessenger_8787254"
   },
   {
-    "model_functionalities": "Face detection",
-    "app_categories": "Entertainment",
+    "Model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Auto focusing object",
+    "Representation": "Visual",
+    "image_name": "Camera_S9.gif",
+    "package_name": "com.camera.galaxyx"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Auto focusing object",
+    "Representation": "Visual",
+    "image_name": "Camera_S9.gif",
+    "package_name": "com.camera.galaxyx"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Education",
     "interaction_type": "Static",
-    "interaction_style": "Camera frame",
-    "representation": "Visual",
-    "image_name": "Horoscope.gif"
+    "interaction_style": "Illustration of correct input",
+    "Representation": "Text, Visual",
+    "image_name": "Cat_Scanner.gif",
+    "package_name": "com.siwalusoftware.catscanner"
   },
   {
-    "model_functionalities": "Face detection",
-    "app_categories": "Entertainment",
-    "interaction_type": "No interaction",
-    "interaction_style": "Importing files",
-    "representation": "None",
-    "image_name": "Horoscope.gif"
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Auditory feedback",
+    "Representation": "Aural",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "model_functionalities": "Face detection",
-    "app_categories": "Social",
-    "interaction_type": "No interaction",
-    "interaction_style": "No interaction with hardware input",
-    "representation": "None",
-    "image_name": "Mecoo.gif"
+    "Model_functionalities": "Face detection",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Auditory feedback",
+    "Representation": "Aural",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "model_functionalities": "Face detection",
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Productivity",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Visual, Haptic",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Productivity",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Visual, Haptic",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Illustration of correct input",
+    "Representation": "Visual",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Illustration of correct input",
+    "Representation": "Visual",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Instruction",
+    "Representation": "Text, Visual",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Instruction",
+    "Representation": "Text, Visual",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Pop-up messages",
+    "Representation": "Text, Visual",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
+    "interaction_style": "Pop-up messages",
+    "Representation": "Text, Visual",
+    "image_name": "Freja_ID.gif",
+    "package_name": "com.verisec.mobile.frejaeid"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Auditory feedback",
+    "Representation": "Aural",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Auditory feedback",
+    "Representation": "Aural",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Medical",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Auto focusing object",
+    "Representation": "Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Auto focusing object",
+    "Representation": "Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Medical",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Aural",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Aural",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Illustration of correct input",
+    "Representation": "Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Illustration of correct input",
+    "Representation": "Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Instruction",
+    "Representation": "Visual, Aural, Text",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Instruction",
+    "Representation": "Visual, Aural, Text",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Pop-up messages",
+    "Representation": "Text, Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Pop-up messages",
+    "Representation": "Text, Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Vibration",
-    "representation": "Haptic",
-    "image_name": "GlassOn.jpg"
+    "Representation": "Haptic",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
   },
   {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Text",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Text",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Illustration of correct input",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Auditory feedback",
-    "representation": "Aural",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
+    "Model_functionalities": "Face detection",
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
+    "interaction_style": "Vibration",
+    "Representation": "Haptic",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "No interaction",
+    "interaction_style": "Importing files",
+    "Representation": "None",
+    "image_name": "Horoscope_no-inter.gif",
+    "package_name": "horoscope.zodiac.love.master"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "No interaction",
+    "interaction_style": "Importing files",
+    "Representation": "None",
+    "image_name": "Horoscope_no-inter.gif",
+    "package_name": "horoscope.zodiac.love.master"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static",
+    "interaction_style": "Camera frame",
+    "Representation": "Visual",
+    "image_name": "Horoscope_static.gif",
+    "package_name": "horoscope.zodiac.love.master"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static",
+    "interaction_style": "Camera frame",
+    "Representation": "Visual",
+    "image_name": "Horoscope_static.gif",
+    "package_name": "horoscope.zodiac.love.master"
+  },
+  {
+    "Model_functionalities": "Object detection and tracking",
+    "app_categories": "Social",
+    "interaction_type": "No interaction",
+    "interaction_style": "No interaction with hardware input",
+    "Representation": "None",
+    "image_name": "Mecoo.gif",
+    "package_name": "com.mecoolive.chat"
+  },
+  {
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Social",
+    "interaction_type": "No interaction",
+    "interaction_style": "No interaction with hardware input",
+    "Representation": "None",
+    "image_name": "Mecoo.gif",
+    "package_name": "com.mecoolive.chat"
+  },
+  {
+    "Model_functionalities": "Face detection",
+    "app_categories": "Social",
+    "interaction_type": "No interaction",
+    "interaction_style": "No interaction with hardware input",
+    "Representation": "None",
+    "image_name": "Mecoo.gif",
+    "package_name": "com.mecoolive.chat"
+  },
+  {
+    "Model_functionalities": "image segmentation",
+    "app_categories": "Productivity",
+    "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
+    "Representation": "Visual",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
   },
   {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Auto focusing object",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
+    "Model_functionalities": "Auto Crop",
+    "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
-    "representation": "Aural",
-    "image_name": "GlassOn.jpg"
+    "Representation": "Visual",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
   },
   {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Aural",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Visual",
-    "image_name": "GlassOn.jpg"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Text",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Instruction",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Camera adjustment",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Camera adjustment",
-    "representation": "Haptic",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Auditory feedback",
-    "representation": "Aural",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Illustration of correct input",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Text",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Face detection",
-    "app_categories": "Productivity",
-    "interaction_type": "Static",
-    "interaction_style": "Pop-up messages",
-    "representation": "Visual",
-    "image_name": "Freja_ID.gif"
-  },
-  {
-    "model_functionalities": "Auto Crop",
-    "app_categories": "Productivity",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Photo editor",
-    "representation": "Visual",
-    "image_name": "Scanscan.gif"
-  },
-  {
-    "model_functionalities": "Auto Crop",
+    "Model_functionalities": "image segmentation",
     "app_categories": "Productivity",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
-    "representation": "None",
-    "image_name": "Scanscan.gif"
+    "Representation": "None",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
   },
   {
-    "model_functionalities": "Auto Crop",
+    "Model_functionalities": "Auto Crop",
+    "app_categories": "Productivity",
+    "interaction_type": "No interaction",
+    "interaction_style": "Importing files",
+    "Representation": "None",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
+  },
+  {
+    "Model_functionalities": "image segmentation",
+    "app_categories": "Productivity",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Photo editor",
+    "Representation": "Visual",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
+  },
+  {
+    "Model_functionalities": "Auto Crop",
+    "app_categories": "Productivity",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Photo editor",
+    "Representation": "Visual",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
+  },
+  {
+    "Model_functionalities": "image segmentation",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
-    "representation": "Text",
-    "image_name": "Scanscan.gif"
+    "Representation": "Text",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
   },
   {
-    "model_functionalities": "Auto Crop",
+    "Model_functionalities": "Auto Crop",
     "app_categories": "Productivity",
     "interaction_type": "Static",
-    "interaction_style": "Camera adjustment",
-    "representation": "Visual",
-    "image_name": "Scanscan.gif"
+    "interaction_style": "Pop-up messages",
+    "Representation": "Text",
+    "image_name": "Scanscan.gif",
+    "package_name": "com.uzero.baimiaog"
   },
   {
-    "model_functionalities": "Face detection",
-    "app_categories": "Photography",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Auto focusing object",
-    "representation": "Visual",
-    "image_name": "Camera_S9.gif"
+    "Model_functionalities": "Object detection and tracking",
+    "app_categories": "Finance",
+    "interaction_type": "Static",
+    "interaction_style": "Instruction",
+    "Representation": "Text, Visual",
+    "image_name": "Unicred.gif",
+    "package_name": "com.unicredit"
   },
   {
-    "model_functionalities": "Image labeling",
-    "app_categories": "Photography",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Auto focusing object",
-    "representation": "Visual",
-    "image_name": "Camera_S9.gif"
+    "Model_functionalities": "Image labeling",
+    "app_categories": "Finance",
+    "interaction_type": "Static",
+    "interaction_style": "Instruction",
+    "Representation": "Text, Visual",
+    "image_name": "Unicred.gif",
+    "package_name": "com.unicredit"
   }
-]
+ ]
