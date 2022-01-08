@@ -16,7 +16,8 @@
           ><strong>App Categories:</strong> <%= queries.app_categories %></span
         >
         <span class="category-pill"
-          ><strong>Interaction Types:</strong> <%= queries.interaction_type%></span
+          ><strong>Interaction Types:</strong> <%=
+          queries.interaction_type%></span
         >
         <span class="category-pill"
           ><strong>Interaction Styles:</strong> <%= queries.interaction_style
@@ -38,8 +39,10 @@
             />
             <div class="card-body">
               <p class="card-text">
+
                 <strong>Forms of communication: </strong><br> <%= data.Representation %> <br>
                 <strong>Package name: </strong> <%= data.package_name %>
+
 
 
               </p>
@@ -49,7 +52,7 @@
         </div>
       </div>
 
-      <!-- Trigger/Open The Modal -->
+      Trigger/Open The Modal
 
       <!-- The Modal -->
       <div id="myModal" class="modal">
