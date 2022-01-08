@@ -1,6 +1,6 @@
 [
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Communication",
     "interaction_type": "Static",
     "interaction_style": "Photo editor",
@@ -9,7 +9,7 @@
     "package_name": "com.wAshMessenger_8787254"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Communication",
     "interaction_type": "Static",
     "interaction_style": "Photo editor",
@@ -18,7 +18,7 @@
     "package_name": "com.wAshMessenger_8787254"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Photography",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
@@ -27,7 +27,7 @@
     "package_name": "com.camera.galaxyx"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Photography",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
@@ -36,7 +36,7 @@
     "package_name": "com.camera.galaxyx"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Education",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
@@ -45,7 +45,7 @@
     "package_name": "com.siwalusoftware.catscanner"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
@@ -54,7 +54,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
@@ -63,7 +63,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Camera adjustment",
@@ -72,7 +72,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Camera adjustment",
@@ -81,7 +81,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
@@ -90,7 +90,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
@@ -99,7 +99,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
@@ -108,7 +108,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
@@ -117,7 +117,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
@@ -126,7 +126,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
@@ -135,7 +135,7 @@
     "package_name": "com.verisec.mobile.frejaeid"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
@@ -144,7 +144,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Auditory feedback",
@@ -153,7 +153,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
@@ -162,7 +162,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Auto focusing object",
@@ -171,7 +171,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Camera adjustment",
@@ -180,25 +180,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
-    "app_categories": "Medical",
-    "interaction_type": "Static",
-    "interaction_style": "Camera adjustment",
-    "Representation": "Aural",
-    "image_name": "GlassOn.jpg",
-    "package_name": "com.sixoversix.copyglass"
-  },
-  {
-    "Model_functionalities": "Face detection",
-    "app_categories": "Medical",
-    "interaction_type": "Dynamic",
-    "interaction_style": "Camera adjustment",
-    "Representation": "Visual",
-    "image_name": "GlassOn.jpg",
-    "package_name": "com.sixoversix.copyglass"
-  },
-  {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
@@ -207,7 +189,25 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Dynamic",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Visual",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Medical",
+    "interaction_type": "Static",
+    "interaction_style": "Camera adjustment",
+    "Representation": "Aural",
+    "image_name": "GlassOn.jpg",
+    "package_name": "com.sixoversix.copyglass"
+  },
+  {
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
@@ -216,7 +216,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Illustration of correct input",
@@ -225,7 +225,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
@@ -234,7 +234,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
@@ -243,7 +243,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
@@ -252,7 +252,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Medical",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
@@ -261,7 +261,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Vibration",
@@ -270,7 +270,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Medical",
     "interaction_type": "Dynamic",
     "interaction_style": "Vibration",
@@ -279,7 +279,7 @@
     "package_name": "com.sixoversix.copyglass"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Entertainment",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
@@ -288,7 +288,7 @@
     "package_name": "horoscope.zodiac.love.master"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Entertainment",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
@@ -297,7 +297,7 @@
     "package_name": "horoscope.zodiac.love.master"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Entertainment",
     "interaction_type": "Static",
     "interaction_style": "Camera frame",
@@ -306,7 +306,7 @@
     "package_name": "horoscope.zodiac.love.master"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Entertainment",
     "interaction_type": "Static",
     "interaction_style": "Camera frame",
@@ -315,7 +315,7 @@
     "package_name": "horoscope.zodiac.love.master"
   },
   {
-    "Model_functionalities": "Object detection and tracking",
+    "model_functionalities": "Object detection and tracking",
     "app_categories": "Social",
     "interaction_type": "No interaction",
     "interaction_style": "No interaction with hardware input",
@@ -324,7 +324,7 @@
     "package_name": "com.mecoolive.chat"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Social",
     "interaction_type": "No interaction",
     "interaction_style": "No interaction with hardware input",
@@ -333,7 +333,7 @@
     "package_name": "com.mecoolive.chat"
   },
   {
-    "Model_functionalities": "Face detection",
+    "model_functionalities": "Face detection",
     "app_categories": "Social",
     "interaction_type": "No interaction",
     "interaction_style": "No interaction with hardware input",
@@ -342,7 +342,7 @@
     "package_name": "com.mecoolive.chat"
   },
   {
-    "Model_functionalities": "image segmentation",
+    "model_functionalities": "image segmentation",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
@@ -351,7 +351,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "Auto Crop",
+    "model_functionalities": "Auto Crop",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Camera adjustment",
@@ -360,7 +360,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "image segmentation",
+    "model_functionalities": "image segmentation",
     "app_categories": "Productivity",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
@@ -369,7 +369,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "Auto Crop",
+    "model_functionalities": "Auto Crop",
     "app_categories": "Productivity",
     "interaction_type": "No interaction",
     "interaction_style": "Importing files",
@@ -378,7 +378,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "image segmentation",
+    "model_functionalities": "image segmentation",
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Photo editor",
@@ -387,7 +387,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "Auto Crop",
+    "model_functionalities": "Auto Crop",
     "app_categories": "Productivity",
     "interaction_type": "Dynamic",
     "interaction_style": "Photo editor",
@@ -396,7 +396,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "image segmentation",
+    "model_functionalities": "image segmentation",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
@@ -405,7 +405,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "Auto Crop",
+    "model_functionalities": "Auto Crop",
     "app_categories": "Productivity",
     "interaction_type": "Static",
     "interaction_style": "Pop-up messages",
@@ -414,7 +414,7 @@
     "package_name": "com.uzero.baimiaog"
   },
   {
-    "Model_functionalities": "Object detection and tracking",
+    "model_functionalities": "Object detection and tracking",
     "app_categories": "Finance",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
@@ -423,7 +423,7 @@
     "package_name": "com.unicredit"
   },
   {
-    "Model_functionalities": "Image labeling",
+    "model_functionalities": "Image labeling",
     "app_categories": "Finance",
     "interaction_type": "Static",
     "interaction_style": "Instruction",
@@ -431,4 +431,4 @@
     "image_name": "Unicred.gif",
     "package_name": "com.unicredit"
   }
- ]
+]
