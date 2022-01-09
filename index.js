@@ -2,11 +2,11 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 const url = require("url");
-const port = process.env.PORT || 8000;
-var cors = require("cors");
+const cors = require("cors");
 
 // Define Server
 const app = express();
+const port = process.env.PORT || 8000;
 
 const { validateSearch } = require("./modules/validation");
 const { searchData } = require("./modules/search");
@@ -45,7 +45,7 @@ app.get("/search", (req, res) => {
   let query = req.query;
   let interactionStyle = query.interaction_style;
   if (!interactionStyle.includes("_")) {
-    res.json({ code: 400, message: "Invalid search parameters" });
+    res.json({ message: "Invalid search parameters" });
   }
   let interaction = interactionStyle.split("_");
   query.interaction_type = interaction[0];
