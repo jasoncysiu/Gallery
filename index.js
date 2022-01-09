@@ -3,6 +3,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const url = require("url");
 const port = process.env.PORT || 8080;
+
 // Define Server
 const app = express();
 
@@ -63,5 +64,4 @@ app.get("/search", (req, res) => {
   }
 });
 
-app.listen(port, ()=>{console.log('Server is running.')});
-console.log("Server is listening on port 8000");
+app.listen(port, ()=>{console.log('Server is running on PORT'+port)});
