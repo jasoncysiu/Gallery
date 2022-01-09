@@ -2,7 +2,8 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 const url = require("url");
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8000;
+var cors = require("cors");
 
 // Define Server
 const app = express();
@@ -10,11 +11,10 @@ const app = express();
 const { validateSearch } = require("./modules/validation");
 const { searchData } = require("./modules/search");
 
-// Set up forms
 app.use(bodyParser.json()); // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // to support URL-encoded bodies
-
-app.use(express.static("public"));
+app.use(express.static("public")); // Setup public folder for static files
+app.use(cors()); //CORS
 
 // Set up the view engine
 app.set("views", path.join(__dirname, "views"));
@@ -55,15 +55,21 @@ app.get("/search", (req, res) => {
     const searchedData = searchData(query);
     searchedData.length > 0
       ? res.render("pages/search", { queries: query, data: searchedData })
-      : res.render("pages/error", { code: 204, message: "No results. Currently we are still updating the new interactions." });
+      : res.render("pages/error", {
+          message:
+            "No results. Currently we are still updating the new interactions.",
+        });
   } else {
     res.render("pages/error", {
-      code: 400,
       message: "Invalid search parameters",
     });
   }
 });
 
-app.listen(port, ()=>{
-  console.log('Server is running on PORT : '+port)
+app.get("*", (req, res) => {
+  res.render("pages/error", { message: "This page doesn't exist" });
+});
+
+app.listen(port, () => {
+  console.log("Server is running on PORT: " + port);
 });

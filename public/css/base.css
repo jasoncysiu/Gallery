@@ -77,3 +77,9 @@
   height: fit-content;
   width: 285px;
 }
+
+.error-container {
+  text-align: center;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}

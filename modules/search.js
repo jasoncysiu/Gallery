@@ -2,9 +2,6 @@ const data = require("../data/data.json");
 
 const searchData = (query) => {
   let matchedData = [];
-
-  console.log(data);
-
   for (let i = 0; i < data.length; i++) {
     const element = data[i];
     if (
