@@ -4,9 +4,6 @@ const bodyParser = require("body-parser");
 const url = require("url");
 const port = process.env.PORT || 8080;
 
-var server_port = process.env.YOUR_PORT || process.env.PORT || 80;
-var server_host = process.env.YOUR_HOST || '0.0.0.0';
-
 // Define Server
 const app = express();
 
@@ -67,6 +64,6 @@ app.get("/search", (req, res) => {
   }
 });
 
-app.listen(server_port , server_host, ()=>{
-  console.log('Server is running on PORT : '+server_port)
+app.listen(port, ()=>{
+  console.log('Server is running on PORT : '+port)
 });
