@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 const url = require("url");
-var port = process.env.PORT || 8080
+const port = process.env.PORT || 8080;
 // Define Server
 const app = express();
 
