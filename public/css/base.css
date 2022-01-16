@@ -15,6 +15,9 @@
 
 .search-pills {
   text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .btn-back {
