@@ -1,21 +1,6 @@
 [
-  "Medical",
-  "Productivity",
-  "Art & Design",
-  "Beauty",
-  "Business",
-  "Communication",
-  "Dating",
-  "Education",
-  "Entertainment",
-  "Finance",
-  "Food & Drink",
-  "Health & Fitness",
-  "Lifestyle",
-  "Personalization",
-  "Photography",
-  "Shopping",
-  "Social",
-  "Tools",
-  "Video Players & Editors"
+  "Business", "Communication", "Dating", "Education",
+  "Entertainment", "Finance", "Health & Fitness", "Libraries & Demo",
+  "Lifestyle", "Medical", "Photography", "Productivity", "Shopping",
+  "Social", "Tools", "Sports"
 ]

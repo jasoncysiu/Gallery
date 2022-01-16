@@ -1,17 +1,7 @@
 [
-  "Importing files",
-  "No interaction with hardware input",
-  "Pop-up messages",
-  "Instruction",
-  "Camera frame",
-  "Illustration of correct input",
-  "Flashlight",
-  "Vibration",
-  "Auditory feedback",
-  "Text suggestion",
-  "Camera adjustment",
-  "Photo editor",
-  "Auto focusing object",
-  "Flashlight",
-  "Auditory feedback"
+  "Auditory feedback", "Auditory feedback", "Auto focusing object",
+  "Camera adjustment", "Camera frame", "Flashlight", "Flashlight",
+  "Illustration of correct input", "Importing files", "Instruction",
+  "No interaction with hardware input", "Photo editor",
+  "Pop-up messages", "Reticle", "Text suggestion", "Vibration"
 ]

@@ -1,5 +1,3641 @@
 [
   {
+    "model_functionalities": "Face detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Image Segmentation",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "ai.fritz.heartbeat.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Style Transfer",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "ai.fritz.heartbeat sty no_in.gif",
+    "package_name": "ai.fritz.heartbeat"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "ch.zhaw.facerecognition.gif",
+    "package_name": "ch.zhaw.facerecognition"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "ch.zhaw.facerecognition.gif",
+    "package_name": "ch.zhaw.facerecognition"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "cn.jingling.motu.photowonder.gif",
+    "package_name": "cn.jingling.motu.photowonder"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Dating",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.badoo.mobile.gif",
+    "package_name": "com.badoo.mobile"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Dating",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.badoo.mobile.gif",
+    "package_name": "com.badoo.mobile"
+  },
+  {
+    "model_functionalities": "Selfie segmentation ",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.cut.cutout.photo.background.editor.gif",
+    "package_name": "com.cut.cutout.photo.background.editor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation ",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.cut.cutout.photo.background.editor.gif",
+    "package_name": "com.cut.cutout.photo.background.editor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Style Transfer",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Style Transfer",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Style Transfer",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.cyberlink.youcammakeup.gif",
+    "package_name": "com.cyberlink.youcammakeup"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.dailyselfie.newlook.studio.gif",
+    "package_name": "com.dailyselfie.newlook.studio"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.draw.clash.drawit.gif",
+    "package_name": "com.draw.clash.drawit"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.draw.clash.drawit.gif",
+    "package_name": "com.draw.clash.drawit"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.draw.clash.drawit.gif",
+    "package_name": "com.draw.clash.drawit"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor face.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.eraserphoto.cutout.backgroundeditor img_seg.gif",
+    "package_name": "com.eraserphoto.cutout.backgroundeditor"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.fabbyhair.android.gif",
+    "package_name": "com.fabbyhair.android"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.fabbyhair.android.gif",
+    "package_name": "com.fabbyhair.android"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Pose detection",
+    "app_categories": "Health & Fitness",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.familyfit.google.baduanjin.gif",
+    "package_name": "com.familyfit.google.baduanjin"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Business",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.fishbrain.app.gif",
+    "package_name": "com.fishbrain.app"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Business",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.fishbrain.app.gif",
+    "package_name": "com.fishbrain.app"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "‎Sports",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.fishbrain.app.gif",
+    "package_name": "com.fishbrain.app"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "‎Sports",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.fishbrain.app.gif",
+    "package_name": "com.fishbrain.app"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.geico.mobile.gif",
+    "package_name": "com.geico.mobile"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.geico.mobile.gif",
+    "package_name": "com.geico.mobile"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Finance",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.geico.mobile.gif",
+    "package_name": "com.geico.mobile"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Education",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.cultural obj dy.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Education",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.cultural obj dy.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.cultural obj dy.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Education",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.google.android.apps.cultural obj no_in.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.cultural port sta.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.cultural port sta.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.cultural port sta.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.cultural port sta.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Style Transfer",
+    "app_categories": "Education",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.google.android.apps.cultural style no_in.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Style Transfer",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.cultural style sta.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Style Transfer",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.cultural style sta.gif",
+    "package_name": "com.google.android.apps.cultural"
+  },
+  {
+    "model_functionalities": "Auto Crop",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.photos.scanner.gif",
+    "package_name": "com.google.android.apps.photos.scanner"
+  },
+  {
+    "model_functionalities": "Auto Crop",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.photos.scanner.gif",
+    "package_name": "com.google.android.apps.photos.scanner"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.photos.scanner.gif",
+    "package_name": "com.google.android.apps.photos.scanner"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.photos.scanner.gif",
+    "package_name": "com.google.android.apps.photos.scanner"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.google.android.apps.photosgo.gif",
+    "package_name": "com.google.android.apps.photosgo"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.google.android.apps.photosgo.gif",
+    "package_name": "com.google.android.apps.photosgo"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.google.android.apps.photosgo.gif",
+    "package_name": "com.google.android.apps.photosgo"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.google.android.apps.translate.gif",
+    "package_name": "com.google.android.apps.translate"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.google.android.googlequicksearchbox.gif",
+    "package_name": "com.google.android.googlequicksearchbox"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Communication",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.google.audio.hearing.visualization.accessibility.scribe.gif",
+    "package_name": "com.google.audio.hearing.visualization.accessibility.scribe"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Communication",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.google.audio.hearing.visualization.accessibility.scribe.gif",
+    "package_name": "com.google.audio.hearing.visualization.accessibility.scribe"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Communication",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.google.audio.hearing.visualization.accessibility.scribe.gif",
+    "package_name": "com.google.audio.hearing.visualization.accessibility.scribe"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Communication",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.google.audio.hearing.visualization.accessibility.scribe.gif",
+    "package_name": "com.google.audio.hearing.visualization.accessibility.scribe"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Communication",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.google.audio.hearing.visualization.accessibility.scribe.gif",
+    "package_name": "com.google.audio.hearing.visualization.accessibility.scribe"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Productivity",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.grammarly.android.keyboard.gif",
+    "package_name": "com.grammarly.android.keyboard"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.homesecurity.firstone.gif",
+    "package_name": "com.homesecurity.firstone"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.homesecurity.firstone.gif",
+    "package_name": "com.homesecurity.firstone"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.huya.nimo.gif",
+    "package_name": "com.huya.nimo"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.huya.nimo.gif",
+    "package_name": "com.huya.nimo"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.huya.nimo.gif",
+    "package_name": "com.huya.nimo"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.huya.nimo.gif",
+    "package_name": "com.huya.nimo"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.iart.camera.photo.gif",
+    "package_name": "com.iart.camera.photo"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.iart.camera.photo.gif",
+    "package_name": "com.iart.camera.photo"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.iart.camera.photo.gif",
+    "package_name": "com.iart.camera.photo"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Productivity",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.icomedias.hybridforms.gif",
+    "package_name": "com.icomedias.hybridforms"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Productivity",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.icomedias.hybridforms.gif",
+    "package_name": "com.icomedias.hybridforms"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Productivity",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.icomedias.hybridforms.gif",
+    "package_name": "com.icomedias.hybridforms"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Productivity",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.icomedias.hybridforms.gif",
+    "package_name": "com.icomedias.hybridforms"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Entertainment",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.kwai.video rec no_in.gif",
+    "package_name": "com.kwai.video"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.kwai.video sty dy.gif",
+    "package_name": "com.kwai.video"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.kwai.video sty dy.gif",
+    "package_name": "com.kwai.video"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.kwai.video sty dy.gif",
+    "package_name": "com.kwai.video"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.kwai.video sty dy.gif",
+    "package_name": "com.kwai.video"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Entertainment",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.kwai.video sty dy.gif",
+    "package_name": "com.kwai.video"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Entertainment",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.kwai.video sty dy.gif",
+    "package_name": "com.kwai.video"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.meitu.beautyplusme.gif",
+    "package_name": "com.meitu.beautyplusme"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.meitu.beautyplusme.gif",
+    "package_name": "com.meitu.beautyplusme"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.meitu.beautyplusme.gif",
+    "package_name": "com.meitu.beautyplusme"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.meitu.beautyplusme.gif",
+    "package_name": "com.meitu.beautyplusme"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.meitu.beautyplusme.gif",
+    "package_name": "com.meitu.beautyplusme"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.meitu.beautyplusme.gif",
+    "package_name": "com.meitu.beautyplusme"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.modiface.loreal.stylemyhair.gif",
+    "package_name": "com.modiface.loreal.stylemyhair"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.modiface.loreal.stylemyhair.gif",
+    "package_name": "com.modiface.loreal.stylemyhair"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.modiface.loreal.stylemyhair.gif",
+    "package_name": "com.modiface.loreal.stylemyhair"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.modiface.loreal.stylemyhair.gif",
+    "package_name": "com.modiface.loreal.stylemyhair"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Recommendation",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.nhn.android.search.gif",
+    "package_name": "com.nhn.android.search"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.seefoodtechnologies.nothotdog.gif",
+    "package_name": "com.seefoodtechnologies.nothotdog"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.seefoodtechnologies.nothotdog.gif",
+    "package_name": "com.seefoodtechnologies.nothotdog"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Lifestyle",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.urbandroid.sleep.gif",
+    "package_name": "com.urbandroid.sleep"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.vyroai.AiBlurEditor.gif",
+    "package_name": "com.vyroai.AiBlurEditor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.vyroai.AiBlurEditor no_in.gif",
+    "package_name": "com.vyroai.AiBlurEditor"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "anyline qr code.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "anyline qr code.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap tran dy.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap tran dy.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.cam001.selfie.gif",
+    "package_name": "com.cam001.selfie"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.cam001.selfie.gif",
+    "package_name": "com.cam001.selfie"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.chinasoft.mall no inter.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.cut.cutout.photo.background.editor.gif",
+    "package_name": "com.cut.cutout.photo.background.editor"
+  },
+  {
+    "model_functionalities": "Speech recongition",
+    "app_categories": "Finance",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.dengtacj.stock.gif",
+    "package_name": "com.dengtacj.stock"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.dengtacj.stock.gif",
+    "package_name": "com.dengtacj.stock"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.fingershopping static.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.fingershopping static.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.fingershopping static.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.fingershopping no inter.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.magicvcam.super.selfiecam.camera.gif",
+    "package_name": "com.magicvcam.super.selfiecam.camera"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.uccb.mobile QR.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile QR.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "cutcut.cut.out.paste.background.remove.photo.cutout.gif",
+    "package_name": "cutcut.cut.out.paste.background.remove.photo.cutout"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "cutcut.cut.out.paste.background.remove.photo.cutout.gif",
+    "package_name": "cutcut.cut.out.paste.background.remove.photo.cutout"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "facetechstudio.future.me.gif",
+    "package_name": "facetechstudio.future.me"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "facetechstudio.future.me.gif",
+    "package_name": "facetechstudio.future.me"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "anyline qr code.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "anyline qr code.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "anyline qr code.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "machinelearning.tensorflow.classifier.gif",
+    "package_name": "machinelearning.tensorflow.classifier"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "machinelearning.tensorflow.speech.gif",
+    "package_name": "machinelearning.tensorflow.speech"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "tflite.gif",
+    "package_name": "https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "tflite.gif",
+    "package_name": "https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.dailyselfie.newlook.studio.gif",
+    "package_name": "com.dailyselfie.newlook.studio"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.dailyselfie.newlook.studio.gif",
+    "package_name": "com.dailyselfie.newlook.studio"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.dailyselfie.newlook.studio.gif",
+    "package_name": "com.dailyselfie.newlook.studio"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.urbandroid.sleep.gif",
+    "package_name": "com.urbandroid.sleep"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.urbandroid.sleep.gif",
+    "package_name": "com.urbandroid.sleep"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.urbandroid.sleep.gif",
+    "package_name": "com.urbandroid.sleep"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "anyline qr code.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.baidu.BaiduMap tran dy.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.baidu.BaiduMap tran dy.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.chinasoft.mall SR.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.chinasoft.mall SR.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.chinasoft.mall SR.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.redbaby OD.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.redbaby OD.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.redbaby OD.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.redbaby OD.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.redbaby OD.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "cutcut.cut.out.paste.background.remove.photo.cutout.gif",
+    "package_name": "cutcut.cut.out.paste.background.remove.photo.cutout"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "cutcut.cut.out.paste.background.remove.photo.cutout.gif",
+    "package_name": "cutcut.cut.out.paste.background.remove.photo.cutout"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "cn.com.hrcrb.mobilebank.per.gif",
+    "package_name": "cn.com.hrcrb.mobilebank.per"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.aresmob.transmaster.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.aresmob.transmaster.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.aresmob.transmaster.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.aresmob.transmaster.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.aresmob.transmaster OD.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.aresmob.transmaster OD.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.aresmob.transmaster OD.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.aresmob.transmaster PDF.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.aresmob.transmaster PDF.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.aresmob.transmaster TR.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.aresmob.transmaster TR.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.aresmob.transmaster TR.gif",
+    "package_name": "com.aresmob.transmaster"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.baidu.BaiduMap qr.gif",
+    "package_name": "com.baidu.BaiduMap"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.cam001.selfie.gif",
+    "package_name": "com.cam001.selfie"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "com.cam001.selfie.gif",
+    "package_name": "com.cam001.selfie"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.chinasoft.mall QRCODE.gif",
+    "package_name": "com.chinasoft.mall"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.cut.cutout.photo.background.editor.gif",
+    "package_name": "com.cut.cutout.photo.background.editor"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.dailyselfie.newlook.studio.gif",
+    "package_name": "com.dailyselfie.newlook.studio"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.dailyselfie.newlook.studio.gif",
+    "package_name": "com.dailyselfie.newlook.studio"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.dailyselfie.newlook.studio.gif",
+    "package_name": "com.dailyselfie.newlook.studio"
+  },
+  {
+    "model_functionalities": "Speech recongition",
+    "app_categories": "Finance",
+    "interaction_type": "No Interaction",
+    "interaction_style": "No interaction with hardware input",
+    "representation": "None",
+    "image_name": "com.dengtacj.stock.gif",
+    "package_name": "com.dengtacj.stock"
+  },
+  {
+    "model_functionalities": "Speech recongnition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.dengtacj.stock.gif",
+    "package_name": "com.dengtacj.stock"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "com.fingershopping no inter.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.fingershopping static.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.fingershopping static.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.fingershopping static.gif",
+    "package_name": "com.fingershopping"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Illustration of correct input",
+    "representation": "Visual",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Education",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Text suggestion",
+    "representation": "Text",
+    "image_name": "com.joytunes.simplypiano.gif",
+    "package_name": "com.joytunes.simplypiano"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "com.magicvcam.super.selfiecam.camera.gif",
+    "package_name": "com.magicvcam.super.selfiecam.camera"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Shopping",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.redbaby.gif",
+    "package_name": "com.redbaby"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.uccb.mobile QR.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Barcode Scanning",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.uccb.mobile QR.gif",
+    "package_name": "com.uccb.mobile"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "com.urbandroid.sleep.gif",
+    "package_name": "com.urbandroid.sleep"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.urbandroid.sleep.gif",
+    "package_name": "com.urbandroid.sleep"
+  },
+  {
+    "model_functionalities": "Audio Classification",
+    "app_categories": "Lifestyle",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auditory feedback",
+    "representation": "Aural",
+    "image_name": "com.urbandroid.sleep.gif",
+    "package_name": "com.urbandroid.sleep"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Text recognition",
+    "app_categories": "Finance",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "com.yitong.hrb.people.android.gif",
+    "package_name": "com.yitong.hrb.people.android"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "No Interaction",
+    "interaction_style": "Importing files",
+    "representation": "None",
+    "image_name": "cutcut.cut.out.paste.background.remove.photo.cutout.gif",
+    "package_name": "cutcut.cut.out.paste.background.remove.photo.cutout"
+  },
+  {
+    "model_functionalities": "Selfie segmentation",
+    "app_categories": "Photography",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Photo editor",
+    "representation": "Visual",
+    "image_name": "cutcut.cut.out.paste.background.remove.photo.cutout.gif",
+    "package_name": "cutcut.cut.out.paste.background.remove.photo.cutout"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "facetechstudio.future.me.gif",
+    "package_name": "facetechstudio.future.me"
+  },
+  {
+    "model_functionalities": "Face detection",
+    "app_categories": "Entertainment",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "facetechstudio.future.me.gif",
+    "package_name": "facetechstudio.future.me"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Auto focusing object",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store cattle dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Instruction",
+    "representation": "Text",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Camera frame",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Vibration",
+    "representation": "Haptic",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Flashlight",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Entity Extraction",
+    "app_categories": "Tools",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Reticle",
+    "representation": "Visual",
+    "image_name": "io.anyline.examples.store plate sta dy.gif",
+    "package_name": "io.anyline.examples.store"
+  },
+  {
+    "model_functionalities": "Image labeling",
+    "app_categories": "Tools",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "machinelearning.tensorflow.classifier.gif",
+    "package_name": "machinelearning.tensorflow.classifier"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "machinelearning.tensorflow.speech.gif",
+    "package_name": "machinelearning.tensorflow.speech"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Static Interaction",
+    "interaction_style": "Pop-up messages",
+    "representation": "Text",
+    "image_name": "tflite.gif",
+    "package_name": "https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android"
+  },
+  {
+    "model_functionalities": "Object detection and tracking",
+    "app_categories": "Libraries & Demo",
+    "interaction_type": "Dynamic Interaction",
+    "interaction_style": "Camera adjustment",
+    "representation": "Visual",
+    "image_name": "tflite.gif",
+    "package_name": "https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android"
+  },
+  {
     "model_functionalities": "Image labeling",
     "app_categories": "Communication",
     "interaction_type": "Static",
@@ -431,4 +4067,4 @@
     "image_name": "Unicred.gif",
     "package_name": "com.unicredit"
   }
-]
+ ]
