@@ -2,7 +2,7 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 200px;
+  grid-template-rows: 730px;
   row-gap: 40px;
 }
 
