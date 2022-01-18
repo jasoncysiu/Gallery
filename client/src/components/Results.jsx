@@ -3,10 +3,10 @@ import SingleResult from "./SingleResult";
 
 export default function Results() {
   return (
-    <div class="container mt-4">
+    <div className="container mt-4">
       <br />
-      <div class="row">
-        <div class="image-grid">
+      <div className="row">
+        <div className="image-grid">
           <SingleResult />
         </div>
       </div>

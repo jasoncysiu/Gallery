@@ -11,16 +11,16 @@ export default function SearchBox({ searchParams, setSearchParams }) {
 
   return (
     <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col card p-4 mt-4">
+      <div className="container">
+        <div className="row">
+          <div className="col-3"></div>
+          <div className="col card p-4 mt-4">
             <h1>Gallery Search</h1>
             <form method="post" className="search-form">
-              <div class="form-group">
-                <label for="app_categories">App Categories:</label>
+              <div className="form-group">
+                <label htmlFor="app_categories">App Categories:</label>
                 <select
-                  class="form-control"
+                  className="form-control"
                   id="app_categories"
                   name="app_categories"
                   value={searchParams.app_categories}
@@ -34,12 +34,12 @@ export default function SearchBox({ searchParams, setSearchParams }) {
 
               <br />
 
-              <div class="form-group">
-                <label for="model_functionalities">
+              <div className="form-group">
+                <label htmlFor="model_functionalities">
                   Model Functionalities:
                 </label>
                 <select
-                  class="form-control"
+                  className="form-control"
                   id="model_functionalities"
                   name="model_functionalities"
                   value={searchParams.model_functionalities}
@@ -51,10 +51,10 @@ export default function SearchBox({ searchParams, setSearchParams }) {
                 </select>
               </div>
               <br />
-              <div class="form-group">
-                <label for="interaction_style">Interaction Style:</label>
+              <div className="form-group">
+                <label htmlFor="interaction_style">Interaction Style:</label>
                 <select
-                  class="form-control"
+                  className="form-control"
                   id="interaction_style"
                   name="interaction_style"
                   value={searchParams.interaction_style}
@@ -66,12 +66,12 @@ export default function SearchBox({ searchParams, setSearchParams }) {
                 </select>
               </div>
 
-              <button class="btn btn-primary mt-3" type="submit">
+              <button className="btn btn-primary mt-3" type="submit">
                 Search
               </button>
             </form>
           </div>
-          <div class="col-3"></div>
+          <div className="col-3"></div>
         </div>
       </div>
     </div>
