@@ -11,4 +11,4 @@
 - For backend production: `npm start`
 - For backend development: `npm run dev`
 
-- For frontend development: `cd client, npm start`
+- For frontend development: `cd client, then npm start`
