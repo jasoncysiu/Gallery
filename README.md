@@ -8,5 +8,7 @@
 
 ## To Run
 
-- For production: `npm start`
-- For development: `npm run dev`
+- For backend production: `npm start`
+- For backend development: `npm run dev`
+
+- For frontend development: `cd client, npm start`
