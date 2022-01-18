@@ -9,6 +9,11 @@ export default function SearchBox({ searchParams, setSearchParams }) {
     });
   };
 
+  const onFormSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form Submitted");
+  };
+
   return (
     <div>
       <div className="container">
@@ -16,7 +21,7 @@ export default function SearchBox({ searchParams, setSearchParams }) {
           <div className="col-3"></div>
           <div className="col card p-4 mt-4">
             <h1>Gallery Search</h1>
-            <form method="post" className="search-form">
+            <form method="post" className="search-form" onSubmit={onFormSubmit}>
               <div className="form-group">
                 <label htmlFor="app_categories">App Categories:</label>
                 <select
@@ -66,9 +71,9 @@ export default function SearchBox({ searchParams, setSearchParams }) {
                 </select>
               </div>
 
-              <button className="btn btn-primary mt-3" type="submit">
+              {/* <button className="btn btn-primary mt-3" type="submit">
                 Search
-              </button>
+              </button> */}
             </form>
           </div>
           <div className="col-3"></div>

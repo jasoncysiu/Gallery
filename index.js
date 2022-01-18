@@ -11,6 +11,8 @@ const port = process.env.PORT || 8000;
 const { validateSearch } = require("./modules/validation");
 const { searchData } = require("./modules/search");
 
+const apiRoutes = require("./routes//apiRoutes");
+
 app.use(bodyParser.json()); // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // to support URL-encoded bodies
 app.use(express.static("public")); // Setup public folder for static files
@@ -26,6 +28,8 @@ const functionalities = require("./data/functionalities.json");
 const interactionStyles = require("./data/interactionStyles.json");
 
 const data = require("./data/data.json");
+
+app.use("/api", apiRoutes);
 
 // Routes
 app.get("/", (req, res) => {
