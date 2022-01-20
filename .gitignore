@@ -1,3 +1,5 @@
 node_modules/
 public/images/**
 client/node_modules
+
+.env

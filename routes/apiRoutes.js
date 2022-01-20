@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
+const categoryController = require("../controllers/categoryController");
+const dataController = require("../controllers/dataController");
+
 const data = [
   {
     model_functionalities: "Object detection and tracking",
@@ -33,5 +36,13 @@ router.get("/search", (req, res) => {
     res.status(200).json({ data: data });
   }, 1000);
 });
+
+router.post("/filter", categoryController.createFilter);
+
+router.get("/data", dataController.getAllData);
+
+router.post("/data", dataController.createData);
+
+router.post("/data/import", dataController.importArray);
 
 module.exports = router;
