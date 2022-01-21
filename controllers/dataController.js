@@ -92,25 +92,51 @@ const importArray = async (req, res) => {
     }).select("_id");
     funcQuery.exec((err, result) => {
       if (err) res.code(200).json({ message: "Error retrieving data" });
-      formattedElement.modelFunctionalities = result._id;
-      console.log("Model functionalities done", element.FIELD1);
+      if (result && result._id) {
+        formattedElement.modelFunctionalities = result._id;
+      } else {
+        if (err)
+          res.code(400).json({
+            message: "Data does not have correct fields",
+            data: element,
+          });
+      }
+      //   console.log("Model functionalities done", element.FIELD1);
 
       const catQuery = AppCategories.findOne({
         name: app_categories,
       }).select("_id");
       catQuery.exec((err, result) => {
         if (err) res.code(200).json({ message: "Error retrieving data" });
-        formattedElement.appCategories = result._id;
-        console.log("App Categories done", element.FIELD1);
+        if (result && result._id) {
+          formattedElement.appCategories = result._id;
+        } else {
+          if (err)
+            res.code(400).json({
+              message: "Data does not have correct fields",
+              data: element,
+            });
+        }
+
+        // console.log("App Categories done", element.FIELD1);
 
         const interactionQuery = Interactions.findOne({
           name: interaction_style,
           type: interaction_type,
         }).select("_id name");
         interactionQuery.exec((err, result) => {
-          if (err) res.code(200).json({ message: "Error retrieving data" });
-          formattedElement.interaction = result._id;
-          console.log("Interactions done", element.FIELD1);
+          if (err) res.code(400).json({ message: "Error retrieving data" });
+
+          if (result && result._id) {
+            formattedElement.interaction = result._id;
+          } else {
+            if (err)
+              res.code(400).json({
+                message: "Data does not have correct fields",
+                data: element,
+              });
+          }
+          //   console.log("Interactions done", element.FIELD1);
 
           let newData = new Data(formattedElement);
 
@@ -130,8 +156,70 @@ const importArray = async (req, res) => {
   res.status(200).json({ message: "Saved" });
 };
 
+const searchData = (req, res) => {
+  const searchParams = req.query;
+  if (searchParams) {
+    const { modelFunctionalities, appCategories, interaction } = searchParams;
+    if ((modelFunctionalities, appCategories, interaction)) {
+      let interactions = interaction.split("_");
+
+      ModelFunctionalities.findOne(
+        { name: modelFunctionalities },
+        (err, functionalities) => {
+          if (err) res.status(400).json(err);
+
+          AppCategories.findOne({ name: appCategories }, (err, categories) => {
+            if (err) res.status(400).json(err);
+
+            Interactions.findOne(
+              { name: interactions[1], type: interactions[0] },
+              (err, interaction) => {
+                if (err) res.status(400).json(err);
+
+                Data.find(
+                  {
+                    modelFunctionalities: functionalities._id,
+                    appCategories: categories._id,
+                    interaction: interaction._id,
+                  },
+                  (err, data) => {
+                    if (err) res.status(400).json(err);
+                    res.status(200).json(data);
+                  }
+                );
+              }
+            );
+          });
+        }
+      );
+
+      //   Data.find()
+      //     .select("-_id")
+      //     .populate({
+      //       path: "modelFunctionalities",
+      //       match: { modelFunctionalities: { name: modelFunctionalities } },
+      //       select: "name -_id",
+      //     })
+      //     // .populate({
+      //     //   path: "appCategories",
+      //     //   match: { appCategories },
+      //     //   select: "name -_id",
+      //     // })
+      //     // .populate({
+      //     //   path: "interactions",
+      //     //   //   match: { interaction },
+      //     //   //   select: "name -_id",
+      //     // })
+      //     .exec((err, data) => {
+      //       res.status(200).json(data);
+      //     });
+    }
+  }
+};
+
 module.exports = {
   createData,
   getAllData,
   importArray,
+  searchData,
 };

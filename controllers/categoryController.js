@@ -1,6 +1,49 @@
 const ModelFunctionalities = require("../models/functionalitiesModel");
 const AppCategories = require("../models/appCategoriesModel");
 const Interaction = require("../models/interactionModel");
+const Interactions = require("../models/interactionModel");
+
+const getFilters = (req, res) => {
+  var allFilters = {};
+  ModelFunctionalities.find()
+    .select("name -_id")
+    .exec((err, functionalities) => {
+      if (err) res.status(400).json({ message: "Error finding filters" });
+      var functArray = [];
+      functionalities.map((f) => {
+        functArray.push(f.name);
+      });
+      allFilters.modelFunctionalities = functArray;
+
+      AppCategories.find()
+        .select("name -_id")
+        .exec((err, categories) => {
+          if (err) res.status(400).json({ message: "Error finding filters" });
+          var catArray = [];
+          categories.map((c) => {
+            catArray.push(c.name);
+          });
+          allFilters.appCategories = catArray;
+
+          Interactions.find()
+            .select("name type -_id")
+            .exec((err, interactions) => {
+              if (err)
+                res.status(400).json({ message: "Error finding filters" });
+              var interactionsObject = {};
+              interactions.map((i) => {
+                if (!interactionsObject[i.type]) {
+                  interactionsObject[i.type] = [];
+                }
+                interactionsObject[i.type].push(i.name);
+              });
+              allFilters.interactions = interactionsObject;
+
+              res.status(200).json(allFilters);
+            });
+        });
+    });
+};
 
 const createFilter = (req, res) => {
   const filter = req.query.filterName;
@@ -103,4 +146,5 @@ const createInteraction = (req, res) => {
 
 module.exports = {
   createFilter,
+  getFilters,
 };

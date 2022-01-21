@@ -1,10 +1,14 @@
 import React from "react";
 
-export default function SearchBox({ searchParams, setSearchParams }) {
+export default function SearchBox({
+  selectedSearchParams,
+  setSelectedSearchParams,
+  searchParams,
+}) {
   const handleValue = (evt) => {
     const value = evt.target.value;
-    setSearchParams({
-      ...searchParams,
+    setSelectedSearchParams({
+      ...selectedSearchParams,
       [evt.target.name]: value,
     });
   };
@@ -21,19 +25,25 @@ export default function SearchBox({ searchParams, setSearchParams }) {
           <div className="col-3"></div>
           <div className="col card p-4 mt-4">
             <h1>Gallery Search</h1>
-            <form method="post" className="search-form" onSubmit={onFormSubmit}>
+            <form className="search-form">
               <div className="form-group">
                 <label htmlFor="app_categories">App Categories:</label>
                 <select
                   className="form-control"
                   id="app_categories"
                   name="app_categories"
-                  value={searchParams.app_categories}
+                  value={selectedSearchParams.app_categories}
                   onChange={handleValue}
                 >
-                  <option value="option1">Option 1</option>
-                  <option value="option2">Option 2</option>
-                  <option value="option3">Option 3</option>
+                  {searchParams &&
+                    searchParams.appCategories &&
+                    searchParams.appCategories.map((categoryParam) => {
+                      return (
+                        <option key={categoryParam} value={categoryParam}>
+                          {categoryParam}
+                        </option>
+                      );
+                    })}
                 </select>
               </div>
 
@@ -47,12 +57,23 @@ export default function SearchBox({ searchParams, setSearchParams }) {
                   className="form-control"
                   id="model_functionalities"
                   name="model_functionalities"
-                  value={searchParams.model_functionalities}
+                  value={selectedSearchParams.model_functionalities}
                   onChange={handleValue}
                 >
-                  <option value="option1">Option 1</option>
-                  <option value="option2">Option 2</option>
-                  <option value="option3">Option 3</option>
+                  {searchParams &&
+                    searchParams.modelFunctionalities &&
+                    searchParams.modelFunctionalities.map(
+                      (functionalityParam) => {
+                        return (
+                          <option
+                            key={functionalityParam}
+                            value={functionalityParam}
+                          >
+                            {functionalityParam}
+                          </option>
+                        );
+                      }
+                    )}
                 </select>
               </div>
               <br />
@@ -62,12 +83,35 @@ export default function SearchBox({ searchParams, setSearchParams }) {
                   className="form-control"
                   id="interaction_style"
                   name="interaction_style"
-                  value={searchParams.interaction_style}
+                  value={selectedSearchParams.interaction_style}
                   onChange={handleValue}
                 >
-                  <option value="option1">Option 1</option>
-                  <option value="option2">Option 2</option>
-                  <option value="option3">Option 3</option>
+                  <optgroup label="No Interaction">
+                    {searchParams &&
+                      searchParams.interactions &&
+                      searchParams.interactions["No Interaction"] &&
+                      searchParams.interactions["No Interaction"].map(
+                        (noInt) => {
+                          return <option value={noInt}>{noInt}</option>;
+                        }
+                      )}
+                  </optgroup>
+                  <optgroup label="Static Interaction">
+                    {searchParams &&
+                      searchParams.interactions &&
+                      searchParams.interactions["Static"] &&
+                      searchParams.interactions["Static"].map((staticInt) => {
+                        return <option value={staticInt}>{staticInt}</option>;
+                      })}
+                  </optgroup>
+                  <optgroup label="Dynamic Interaction">
+                    {searchParams &&
+                      searchParams.interactions &&
+                      searchParams.interactions["Dynamic"] &&
+                      searchParams.interactions["Dynamic"].map((dyInt) => {
+                        return <option value={dyInt}>{dyInt}</option>;
+                      })}
+                  </optgroup>
                 </select>
               </div>
 

@@ -37,6 +37,8 @@ router.get("/search", (req, res) => {
   }, 1000);
 });
 
+router.get("/filter", categoryController.getFilters);
+
 router.post("/filter", categoryController.createFilter);
 
 router.get("/data", dataController.getAllData);
@@ -44,5 +46,7 @@ router.get("/data", dataController.getAllData);
 router.post("/data", dataController.createData);
 
 router.post("/data/import", dataController.importArray);
+
+router.get("/data/search", dataController.searchData);
 
 module.exports = router;
