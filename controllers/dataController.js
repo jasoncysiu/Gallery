@@ -158,63 +158,77 @@ const importArray = async (req, res) => {
 
 const searchData = (req, res) => {
   const searchParams = req.query;
-  if (searchParams) {
-    const { modelFunctionalities, appCategories, interaction } = searchParams;
-    if ((modelFunctionalities, appCategories, interaction)) {
-      let interactions = interaction.split("_");
 
-      ModelFunctionalities.findOne(
-        { name: modelFunctionalities },
-        (err, functionalities) => {
-          if (err) res.status(400).json(err);
-
-          AppCategories.findOne({ name: appCategories }, (err, categories) => {
-            if (err) res.status(400).json(err);
-
-            Interactions.findOne(
-              { name: interactions[1], type: interactions[0] },
-              (err, interaction) => {
-                if (err) res.status(400).json(err);
-
-                Data.find(
-                  {
-                    modelFunctionalities: functionalities._id,
-                    appCategories: categories._id,
-                    interaction: interaction._id,
-                  },
-                  (err, data) => {
-                    if (err) res.status(400).json(err);
-                    res.status(200).json(data);
-                  }
-                );
-              }
-            );
-          });
-        }
-      );
-
-      //   Data.find()
-      //     .select("-_id")
-      //     .populate({
-      //       path: "modelFunctionalities",
-      //       match: { modelFunctionalities: { name: modelFunctionalities } },
-      //       select: "name -_id",
-      //     })
-      //     // .populate({
-      //     //   path: "appCategories",
-      //     //   match: { appCategories },
-      //     //   select: "name -_id",
-      //     // })
-      //     // .populate({
-      //     //   path: "interactions",
-      //     //   //   match: { interaction },
-      //     //   //   select: "name -_id",
-      //     // })
-      //     .exec((err, data) => {
-      //       res.status(200).json(data);
-      //     });
-    }
+  if (!searchParams) {
+    return res.status(200).json({ message: "Correct parameters not provided" });
   }
+
+  const { modelFunctionalities, appCategories, interaction } = searchParams;
+
+  if (!(modelFunctionalities && appCategories && interaction)) {
+    return res.status(200).json({ message: "Correct parameters not provided" });
+  }
+
+  let interactions = interaction.split("_");
+
+  ModelFunctionalities.findOne(
+    { name: modelFunctionalities },
+    (err, functionalities) => {
+      if (err || !functionalities) {
+        return res.status(200).json({
+          code: 400,
+          message: err ? err : "Invalid model functionality",
+        });
+      } else {
+        AppCategories.findOne({ name: appCategories }, (err, categories) => {
+          if (err || !categories) {
+            return res
+              .status(200)
+              .json({ code: 400, message: err ? err : "Invalid app category" });
+          } else {
+            if (interactions.length !== 2) {
+              return res
+                .status(200)
+                .json({ code: 400, message: "Incorrect interaction" });
+            } else {
+              Interactions.findOne(
+                { name: interactions[1], type: interactions[0] },
+                (err, interaction) => {
+                  if (err || !interaction) {
+                    return res
+                      .status(200)
+                      .json({ code: 400, message: "Incorrect interaction" });
+                  } else {
+                    Data.find({
+                      modelFunctionalities: functionalities._id,
+                      appCategories: categories._id,
+                      interaction: interaction._id,
+                    })
+                      .populate({
+                        path: "modelFunctionalities",
+                        select: "name",
+                      })
+                      .populate({ path: "appCategories", select: "name" })
+                      .populate({ path: "interaction", select: "name type" })
+                      .exec((err, data) => {
+                        if (err || !data) {
+                          return res.status(200).json({
+                            code: 400,
+                            message: err ? err : "No items found",
+                          });
+                        } else {
+                          return res.status(200).json(data);
+                        }
+                      });
+                  }
+                }
+              );
+            }
+          }
+        });
+      }
+    }
+  );
 };
 
 module.exports = {

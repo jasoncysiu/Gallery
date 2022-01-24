@@ -2,40 +2,44 @@ import React, { useState, useEffect } from "react";
 import Results from "../components/Results";
 import SearchBox from "../components/SearchBox";
 
-import { searchData } from "../api/dataApi";
-import { getSearchFilters } from "../api/filtersApi";
+import { searchData, getSearchFilters } from "../api/apiRequests";
 
 export default function Search() {
-  const [searchParams, setSearchParams] = useState([]);
+  const [searchParams, setSearchParams] = useState(null);
   const [selectedSearchParams, setSelectedSearchParams] = useState({});
   const [data, setData] = useState([]);
+  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    getSearchParams();
-  }, []);
-
-  useEffect(() => {
-    getData(selectedSearchParams);
-  }, [searchParams]);
-
-  const getSearchParams = () => {
-    setSearchParams([]);
     getSearchFilters().then((res, err) => {
       if (err) console.log(err);
       setSearchParams(res);
     });
-  };
+  }, []);
 
-  const getData = () => {
-    setData([]);
-    setLoading(true);
-    searchData().then((res) => {
-      console.log(data);
-      setData(res);
-      setLoading(false);
-    });
-  };
+  useEffect(() => {
+    if (searchParams) {
+      setSelectedSearchParams({
+        appCategories: searchParams.appCategories[0],
+        modelFunctionalities: searchParams.modelFunctionalities[0],
+        interactions:
+          "No Interaction_" + searchParams.interactions["No Interaction"][0],
+      });
+    }
+  }, [searchParams]);
+
+  useEffect(() => {
+    if (Object.keys(selectedSearchParams).length !== 0) {
+      searchData(selectedSearchParams).then((res, err) => {
+        if (err) console.log(err);
+        if (res.code && res.code === 400) {
+          setError(res.message);
+        }
+        setData(res);
+      });
+    }
+  }, [selectedSearchParams]);
 
   return (
     <>
@@ -44,7 +48,7 @@ export default function Search() {
         selectedSearchParams={selectedSearchParams}
         searchParams={searchParams}
       />
-      <Results data={data} loading={loading} />
+      <Results data={data} loading={loading} error={error} />
     </>
   );
 }

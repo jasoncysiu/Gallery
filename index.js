@@ -4,13 +4,15 @@ const bodyParser = require("body-parser");
 const url = require("url");
 const cors = require("cors");
 const mongoose = require("mongoose");
+var morgan = require("morgan");
 
+morgan("tiny");
 require("dotenv").config();
 
 // Define Server
 const app = express();
 const port = process.env.PORT || 8000;
-const dbURI = process.env.MONGDB_CONNECTION_STRING;
+const dbURI = process.env.MONGODB_CONNECTION_STRING;
 
 // FOR BODY-PARSER MIDDLEWARE
 // app.use(bodyParser.json());
@@ -23,7 +25,7 @@ const apiRoutes = require("./routes/apiRoutes");
 
 app.use(bodyParser.json()); // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // to support URL-encoded bodies
-app.use(express.static("public")); // Setup public folder for static files
+app.use(express.static(path.resolve(__dirname, "./client/build")));
 app.use(cors()); //CORS
 
 // Set up the view engine
@@ -51,8 +53,8 @@ const interactionStyles = require("./data/interactionStyles.json");
 app.use("/api", apiRoutes);
 
 // Routes
-app.get("/", (req, res) => {
-  res.render("pages/index", { categories, functionalities, interactionStyles });
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
 });
 
 app.listen(port, () => {
