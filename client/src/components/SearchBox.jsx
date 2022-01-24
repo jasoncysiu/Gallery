@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function SearchBox({
   selectedSearchParams,
@@ -27,12 +27,12 @@ export default function SearchBox({
             <h1>Gallery Search</h1>
             <form className="search-form">
               <div className="form-group">
-                <label htmlFor="app_categories">App Categories:</label>
+                <label htmlFor="appCategories">App Categories:</label>
                 <select
                   className="form-control"
-                  id="app_categories"
-                  name="app_categories"
-                  value={selectedSearchParams.app_categories}
+                  id="appCategories"
+                  name="appCategories"
+                  value={selectedSearchParams.appCategories}
                   onChange={handleValue}
                 >
                   {searchParams &&
@@ -50,14 +50,14 @@ export default function SearchBox({
               <br />
 
               <div className="form-group">
-                <label htmlFor="model_functionalities">
+                <label htmlFor="modelFunctionalities">
                   Model Functionalities:
                 </label>
                 <select
                   className="form-control"
-                  id="model_functionalities"
-                  name="model_functionalities"
-                  value={selectedSearchParams.model_functionalities}
+                  id="modelFunctionalities"
+                  name="modelFunctionalities"
+                  value={selectedSearchParams.modelFunctionalities}
                   onChange={handleValue}
                 >
                   {searchParams &&
@@ -81,9 +81,9 @@ export default function SearchBox({
                 <label htmlFor="interaction_style">Interaction Style:</label>
                 <select
                   className="form-control"
-                  id="interaction_style"
-                  name="interaction_style"
-                  value={selectedSearchParams.interaction_style}
+                  id="interactions"
+                  name="interactions"
+                  value={selectedSearchParams.interactions}
                   onChange={handleValue}
                 >
                   <optgroup label="No Interaction">
@@ -92,7 +92,14 @@ export default function SearchBox({
                       searchParams.interactions["No Interaction"] &&
                       searchParams.interactions["No Interaction"].map(
                         (noInt) => {
-                          return <option value={noInt}>{noInt}</option>;
+                          return (
+                            <option
+                              key={"No Interaction_" + noInt}
+                              value={"No Interaction_" + noInt}
+                            >
+                              {noInt}
+                            </option>
+                          );
                         }
                       )}
                   </optgroup>
@@ -101,7 +108,14 @@ export default function SearchBox({
                       searchParams.interactions &&
                       searchParams.interactions["Static"] &&
                       searchParams.interactions["Static"].map((staticInt) => {
-                        return <option value={staticInt}>{staticInt}</option>;
+                        return (
+                          <option
+                            key={"Static_" + staticInt}
+                            value={"Static_" + staticInt}
+                          >
+                            {staticInt}
+                          </option>
+                        );
                       })}
                   </optgroup>
                   <optgroup label="Dynamic Interaction">
@@ -109,7 +123,14 @@ export default function SearchBox({
                       searchParams.interactions &&
                       searchParams.interactions["Dynamic"] &&
                       searchParams.interactions["Dynamic"].map((dyInt) => {
-                        return <option value={dyInt}>{dyInt}</option>;
+                        return (
+                          <option
+                            key={"Dynamic_" + dyInt}
+                            value={"Dynamic_" + dyInt}
+                          >
+                            {dyInt}
+                          </option>
+                        );
                       })}
                   </optgroup>
                 </select>

@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function SingleResult({ data }) {
+  console.log(data);
   return (
     <div>
       <div className="card search-result" width="18rem">
@@ -8,7 +9,7 @@ export default function SingleResult({ data }) {
           className="card-img-top gallery-image"
           src={
             "https://raw.githubusercontent.com/jasonxsiu/GalleryImages/main/Gif/" +
-            data.image_name
+            data.imageName
           }
           alt="Card image cap"
         />
@@ -19,7 +20,7 @@ export default function SingleResult({ data }) {
             {data.representation}
             <br />
             <strong>Package name: </strong>
-            {data.package_name}
+            {data.packageName}
           </p>
         </div>
       </div>
