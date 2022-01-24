@@ -10,7 +10,7 @@ export default function SingleResult({ data }) {
             "https://raw.githubusercontent.com/jasonxsiu/GalleryImages/main/Gif/" +
             data.imageName
           }
-          alt="Card image cap"
+          alt="Card image"
         />
         <div className="card-body">
           <p className="card-text">
