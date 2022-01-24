@@ -27,10 +27,6 @@ const data = [
 
 // const data = require("../data/data.json");
 
-router.get("/", (req, res) => {
-  res.status(200).json({ message: "Hello World!" });
-});
-
 router.get("/search", (req, res) => {
   setTimeout(() => {
     res.status(200).json({ data: data });

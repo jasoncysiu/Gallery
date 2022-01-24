@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function SingleResult({ data }) {
-  console.log(data);
   return (
     <div>
       <div className="card search-result" width="18rem">

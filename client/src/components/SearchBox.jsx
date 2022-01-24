@@ -22,7 +22,7 @@ export default function SearchBox({
     <div>
       <div className="container">
         <div className="row">
-          <div className="col-3"></div>
+          <div className="col-1"></div>
           <div className="col card p-4 mt-4">
             <h1>Gallery Search</h1>
             <form className="search-form">
@@ -141,7 +141,7 @@ export default function SearchBox({
               </button> */}
             </form>
           </div>
-          <div className="col-3"></div>
+          <div className="col-1"></div>
         </div>
       </div>
     </div>

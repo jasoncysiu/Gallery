@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import Results from "../components/Results";
 import SearchBox from "../components/SearchBox";
 
-import { searchData } from "../api/dataApi";
-import { getSearchFilters } from "../api/filtersApi";
+import { searchData, getSearchFilters } from "../api/apiRequests";
 
 export default function Search() {
   const [searchParams, setSearchParams] = useState(null);

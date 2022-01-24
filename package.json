@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "cd client && npm install && npm run build",
     "start": "node index.js",
+    "build": "cd client && npm install && npm run build",
     "dev": "nodemon index.js",
     "client": "cd client && npm start"
   },
@@ -29,5 +31,8 @@
     "nodemon": "^2.0.15",
     "path": "^0.12.7",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
