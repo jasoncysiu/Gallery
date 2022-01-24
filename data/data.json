@@ -1622,7 +1622,7 @@
   {
     "FIELD1": 164,
     "model_functionalities": "Image labelling",
-    "app_categories": "‎Sports",
+    "app_categories": "Sports",
     "interaction_type": "No Interaction",
     "interaction_style": "Importing files",
     "representation": "None",
@@ -3489,4 +3489,4 @@
     "image_name": "machinelearning.tensorflow.speech.gif",
     "package_name": "machinelearning.tensorflow.speech"
   }
- ]
+]
