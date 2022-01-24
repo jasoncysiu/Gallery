@@ -1,12 +1,9 @@
 const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
-const url = require("url");
 const cors = require("cors");
 const mongoose = require("mongoose");
-var morgan = require("morgan");
 
-morgan("tiny");
 require("dotenv").config();
 
 // Define Server
