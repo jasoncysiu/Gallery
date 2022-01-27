@@ -5,15 +5,14 @@ import "../App.css";
 export default function Navbar() {
   return (
     <div className="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <NavLink
-          to={"/"}
-          className={
-            "d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
-          }
-        >
-          <span className="fs-4">Interaction Gallery</span>
-        </NavLink>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <NavLink
+        to={"/"}
+        className={
+          "d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        }
+      >
+          </NavLink>
         <ul className="nav nav-pills">
           <li className="nav-item">
             <NavLink to={"/"} className={"nav-link"} aria-current="page">
@@ -22,7 +21,7 @@ export default function Navbar() {
           </li>
           <li className={"nav-item"}>
             <NavLink to={"/about"} className={"nav-link"}>
-              About
+              Tutorial
             </NavLink>
           </li>
           <li className={"nav-item"}>
@@ -32,11 +31,22 @@ export default function Navbar() {
           </li>
           <li className={"nav-item"}>
             <NavLink to={"/contact"} className={"nav-link"}>
-              Contact
+              AI model
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to={"/contact"} className={"nav-link"} aria-current="page">
+              About us
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to={"/contact"} className={"nav-link"} aria-current="page">
+              Contact us
             </NavLink>
           </li>
         </ul>
       </header>
+    
     </div>
   );
 }
