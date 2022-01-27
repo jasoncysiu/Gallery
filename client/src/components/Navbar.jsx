@@ -4,8 +4,13 @@ import "../App.css";
 
 export default function Navbar() {
   return (
-    <div className="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <div className="container" >
+
+      
+      <nav className="fixed-top" style={{  background:"white" }} >
+    <header class="d-flex flex-wrap justify-content-center py-2 mb-0 border-bottom" >
+    <header style={{marginLeft :"100px" , fontSize:"20px",bottom:"-0.4rem", position:"relative"}} ><a href="/" style={{textDecoration: "none" , color: "black", underline:"none"}}>Interaction Gallery</a></header>
+
       <NavLink
         to={"/"}
         className={
@@ -35,7 +40,7 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to={"/contact"} className={"nav-link"} aria-current="page">
+            <NavLink to={"/about"} className={"nav-link"} aria-current="page">
               About us
             </NavLink>
           </li>
@@ -46,7 +51,7 @@ export default function Navbar() {
           </li>
         </ul>
       </header>
-    
+      </nav>
     </div>
   );
 }

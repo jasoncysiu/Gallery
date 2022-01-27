@@ -10,35 +10,45 @@ export default function Home() {
   return (
     <div className="container">
       <div>
-        <div classname="container">
+        <div classname="container"  >
+     
+   
+
           <title>Interaction Gallery</title>
           {/* <link rel="stylesheet" href="static_assets/css/main.css" />
     <noscript>&lt;link rel="stylesheet" href="assets/css/noscript.css" /&gt;</noscript> */}
           <div id="page-wrapper">
-            <section id="banner">
-              <div classname="inner">
-                <header>
-                  <h2>Interaction Gallery</h2>
-                </header>
-                <p>
-                  This <strong>Gallery</strong> is free
-                  <br />
-                  to let you explore
-                  <br />
-                  the interaction pattern <br />
-                  in AI apps
-                </p>
-                <footer>
-                  <ul classname="buttons stacked">
-                    <li>
-                      <a href="#main" classname="button fit scrolly">
-                        Tell Me More
-                      </a>
-                    </li>
-                  </ul>
-                </footer>
-              </div>
-            </section>
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+
+
+				<section id="banner">
+
+				
+					<div class="inner">
+
+						<header>
+							<h2>Interaction Gallery</h2>
+						</header>
+						<p>This <strong>Gallery</strong> is free
+						<br />
+						to let you explore
+						<br />
+						the interaction pattern <br/>
+					in AI apps</p>
+						<footer>
+							<ul class="buttons stacked">
+								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+							</ul>
+						</footer>
+
+					</div>
+
+				</section>
+
+
+
+
             <article id="main">
               <header classname="special container">
                 <span classname="icon solid fa-chart-bar" />
@@ -68,7 +78,7 @@ export default function Home() {
                   They might struggle to understand how AI means to their jobs.{" "}
                 </p>
                 <p style={{ textAlign: "justify" }}>
-                  Here you come right place! We build this gallery to ley you
+                  Here you to come right place! We build this gallery to ley you
                   explore what AI means to you when designing AI app. We hope
                   you can understand{" "}
                   <a href="ai_model.html">
@@ -81,65 +91,42 @@ export default function Home() {
                   .{" "}
                 </p>
               </header>
-              <section classname="wrapper style2 container special-alt">
-                <div classname="row gtr-50">
-                  <div classname="col-8 col-12-narrower">
-                    <header>
-                      <h2>Want to get inspiration on AI user experience?</h2>
-                    </header>
-                    <p>
-                      The interaction pattern covers a wide range of categories
-                      with diverse styles around the Android Applications.
-                    </p>
-                    <footer>
-                      <ul classname="buttons">
-                        <li>
-                          <a
-                            href="#meta-char"
-                            classname="button scrolly active"
-                          >
-                            Find Out More
-                          </a>
-                        </li>
-                      </ul>
-                    </footer>
-                  </div>
-                  <div classname="col-4 col-12-narrower imp-narrower">
-                    <ul classname="featured-icons">
-                      <li>
-                        <span classname="icon fa-clock">
-                          <span classname="label">Feature 1</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span classname="icon solid fa-volume-up">
-                          <span classname="label">Feature 2</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span classname="icon solid fa-laptop">
-                          <span classname="label">Feature 3</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span classname="icon solid fa-inbox">
-                          <span classname="label">Feature 4</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span classname="icon solid fa-lock">
-                          <span classname="label">Feature 5</span>
-                        </span>
-                      </li>
-                      <li>
-                        <span classname="icon solid fa-cog">
-                          <span classname="label">Feature 6</span>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </section>
+            
+
+
+              <section className="wrapper style2 container special-alt">
+            <div className="row gtr-50">
+              <div className="col-8 col-12-narrower">
+              <header>
+                  <h2>Want to get inspiration on AI user experience?</h2>
+                </header>
+                <p>The interaction pattern covers a wide range of categories
+                      with diverse styles around the Android Applications.</p>
+                <footer>
+                  <ul className="buttons">
+                    <br />
+                    <li><a href="#" className="button">Find Out More</a></li>
+                  </ul>
+                </footer>
+              </div>
+              <div className="col-4 col-12-narrower imp-narrower">
+                <ul className="featured-icons">
+                  <li><span className="icon fa-clock"><span className="label">Feature 1</span></span>
+                  </li>
+                  <li><span className="icon solid fa-volume-up"><span className="label">Feature 2</span></span>
+                  </li>
+                  <li><span className="icon solid fa-laptop"><span className="label">Feature 3</span></span>
+                  </li>
+                  <li><span className="icon solid fa-inbox"><span className="label">Feature 4</span></span>
+                  </li>
+                  <li><span className="icon solid fa-lock"><span className="label">Feature 5</span></span>
+                  </li>
+                  <li><span className="icon solid fa-cog"><span className="label">Feature 6</span></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
               <section classname="wrapper style1 container special">
                 <div classname="row">
                   <div classname="col-4 col-12-narrower" id="meta-char">
@@ -329,17 +316,14 @@ export default function Home() {
                   Design: <a href="index.html">Interaction Gallery</a>
                 </li>
               </ul>
+
             </footer>
 
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.dropotron.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/jquery.scrollex.min.js"></script>
-            <script src="assets/js/browser.min.js"></script>
-            <script src="assets/js/breakpoints.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
+
+          
+
           </div>
+
         </div>
         );
       </div>

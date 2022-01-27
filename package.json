@@ -22,12 +22,15 @@
   "homepage": "https://github.com/jasonxsiu/Gallery#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "bootstrap": "^5.1.3",
     "cors": "^2.8.5",
     "dotenv": "^14.2.0",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "mongoose": "^6.1.7",
     "nodemon": "^2.0.15",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react-bootstrap": "^2.1.1",
+    "react-helmet": "^6.1.0"
   }
 }

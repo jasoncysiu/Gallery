@@ -1,16 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
   return (
     <div className="container">
 
-<div>
-       <Link to="/src/pages/static/index.html">Components</Link>
-       <Link to="/">Home</Link>
-    </div>
-
-
+<Button>sdsd</Button>
 
     </div>
   );
