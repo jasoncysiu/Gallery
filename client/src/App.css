@@ -96,3 +96,7 @@
   width: 100%;
   margin: 8px;
 }
+
+.justify-content-end {
+  margin-right: 1.5rem !important;
+}
