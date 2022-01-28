@@ -18,10 +18,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/contact"  element={<Contact />} />
+          {/* <Route path="/contact"  element={<Contact />} /> */}
           <Route path="*" element={<Error />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );

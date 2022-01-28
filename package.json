@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "cd client && npm install && npm run build",
+    "prestart": "cd client && npm install && npm run build",
     "start": "npm install && node index.js",
-    "dev": "nodemon index.js",
+    "dev": "nodemon index.js && cd client && npm start",
     "client": "cd client && npm start"
   },
   "repository": {

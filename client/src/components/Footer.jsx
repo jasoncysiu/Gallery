@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useHref } from "react-router-dom";
 import "../App.css";
 
 export default function Footer() {
@@ -36,12 +36,13 @@ export default function Footer() {
         <ul class="copyright">
           <li>© All rights reserved</li>
           <li>
-            Design: <a href="index.html">Interaction Gallery</a>
+            Made by:{" "}
+            <a href="https://github.com/SomeGithubNoob" target={"_blank"}>
+              JoshDev.
+            </a>
           </li>
         </ul>
       </footer>
-
-
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./static/static_assets/css/main.css";
 import "./static/static_assets/css/noscript.css";
 import pic01 from "./static/static_images/pic01.jpg";
@@ -76,13 +77,13 @@ export default function Home() {
                   Here you to come right place! We build this gallery to ley you
                   explore what AI means to you when designing AI app. We hope
                   you can understand{" "}
-                  <a href="ai_model.html">
+                  <NavLink to={"ai_model"}>
                     how AI models are used in mobile apps
-                  </a>{" "}
+                  </NavLink>{" "}
                   as well as{" "}
-                  <a href="search.html">
+                  <NavLink to={"/search"}>
                     how the current users talk to the apps and models
-                  </a>{" "}
+                  </NavLink>{" "}
                   .{" "}
                 </p>
               </header>
@@ -171,14 +172,15 @@ export default function Home() {
                           src="https://cdn-icons.flaticon.com/png/512/3112/premium/3112425.png?token=exp=1643331967~hmac=851bcf6b4f6dfd0a62cd8a2a9ed56396"
                           style={{ width: "100px" }}
                         />
-                        <a href="ai_model.html">
+                        <NavLink to={"/ai_model"}>
                           <h3>Model Functionalities</h3>
-                        </a>
+                        </NavLink>
                       </header>
                       <p>
                         The features of these apps are supported by artificial
-                        intelligence. Click <a href="ai_model.html">here</a> to
-                        learn more about the usage of these 13 AI models.
+                        intelligence. Click{" "}
+                        <NavLink to={"/ai_model"}>here</NavLink> to learn more
+                        about the usage of these 13 AI models.
                       </p>
                     </section>
                   </div>
@@ -190,14 +192,16 @@ export default function Home() {
                           src="https://cdn-icons-png.flaticon.com/512/2818/2818069.png"
                           style={{ width: "100px" }}
                         />
-                        <a href="tutorial.html">
+                        <NavLink to={"/tutorial"}>
                           <h3>Interaction Style</h3>
-                        </a>
+                        </NavLink>
                       </header>
+                      `
                       <p>
-                        This <a href="tutorial.html">tutorial</a> introduces how
-                        15 interactions are being implemented.
+                        This <NavLink to={"/tutorial"}>tutorial</NavLink>{" "}
+                        introduces how 15 interactions are being implemented.
                       </p>
+                      `
                     </section>
                   </div>
                 </div>
