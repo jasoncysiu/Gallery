@@ -50,11 +50,18 @@ export default function Home() {
                   interact with it.
                 </p>
                 <p style={{ textAlign: "justify" }}>
-                  While <a href="https://www.youtube.com/watch?v=6L-BogO6HwU" />{" "}
-                  the app development is ever-changing, the users’ needs are
-                  becoming more demanding which poses challenges to UX
-                  designers. The artificial intelligence (AI) joins in the field
-                  and serve users with amazing features.{" "}
+                  While{" "}
+                  <a href="https://www.youtube.com/watch?v=6L-BogO6HwU">
+                    the app development is ever-changing
+                  </a>
+                  , the users’ needs are becoming more demanding which poses
+                  challenges to UX designers. Artificial intelligence (AI) joins
+                  in the field; it plays{" "}
+                  <a href="https://arxiv.org/pdf/2101.04930.pdf">
+                    an increasingly significant role{" "}
+                  </a>
+                  in various application domains by serving users with amazing
+                  features.{" "}
                   <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6832128/">
                     Human started to cooperate with these AI models.
                   </a>{" "}
