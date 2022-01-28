@@ -5,49 +5,38 @@ import pic01 from "./static/static_images/pic01.jpg";
 import pic02 from "./static/static_images/pic02.jpg";
 import pic03 from "./static/static_images/pic03.jpg";
 
-
 export default function Home() {
   return (
     <div className="container">
       <div>
-        <div classname="container"  >
-     
-   
-
+        <div classname="container">
           <title>Interaction Gallery</title>
-          {/* <link rel="stylesheet" href="static_assets/css/main.css" />
-    <noscript>&lt;link rel="stylesheet" href="assets/css/noscript.css" /&gt;</noscript> */}
+
           <div id="page-wrapper">
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-
-
-				<section id="banner">
-
-				
-					<div class="inner">
-
-						<header>
-							<h2>Interaction Gallery</h2>
-						</header>
-						<p>This <strong>Gallery</strong> is free
-						<br />
-						to let you explore
-						<br />
-						the interaction pattern <br/>
-					in AI apps</p>
-						<footer>
-							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
-							</ul>
-						</footer>
-
-					</div>
-
-				</section>
-
-
-
+            <section id="banner">
+              <div class="inner">
+                <header>
+                  <h2>Interaction Gallery</h2>
+                </header>
+                <p>
+                  This <strong>Gallery</strong> is free
+                  <br />
+                  to let you explore
+                  <br />
+                  the interaction pattern <br />
+                  in AI apps
+                </p>
+                <footer>
+                  <ul class="buttons stacked">
+                    <li>
+                      <a href="#main" class="button fit scrolly">
+                        Tell Me More
+                      </a>
+                    </li>
+                  </ul>
+                </footer>
+              </div>
+            </section>
 
             <article id="main">
               <header classname="special container">
@@ -60,7 +49,6 @@ export default function Home() {
                   Designer specialises in designing the best way users will
                   interact with it.
                 </p>
-                <br />
                 <p style={{ textAlign: "justify" }}>
                   While <a href="https://www.youtube.com/watch?v=6L-BogO6HwU" />{" "}
                   the app development is ever-changing, the users’ needs are
@@ -91,48 +79,75 @@ export default function Home() {
                   .{" "}
                 </p>
               </header>
-            
-
 
               <section className="wrapper style2 container special-alt">
-            <div className="row gtr-50">
-              <div className="col-8 col-12-narrower">
-              <header>
-                  <h2>Want to get inspiration on AI user experience?</h2>
-                </header>
-                <p>The interaction pattern covers a wide range of categories
-                      with diverse styles around the Android Applications.</p>
-                <footer>
-                  <ul className="buttons">
-                    <br />
-                    <li><a href="#" className="button">Find Out More</a></li>
-                  </ul>
-                </footer>
-              </div>
-              <div className="col-4 col-12-narrower imp-narrower">
-                <ul className="featured-icons">
-                  <li><span className="icon fa-clock"><span className="label">Feature 1</span></span>
-                  </li>
-                  <li><span className="icon solid fa-volume-up"><span className="label">Feature 2</span></span>
-                  </li>
-                  <li><span className="icon solid fa-laptop"><span className="label">Feature 3</span></span>
-                  </li>
-                  <li><span className="icon solid fa-inbox"><span className="label">Feature 4</span></span>
-                  </li>
-                  <li><span className="icon solid fa-lock"><span className="label">Feature 5</span></span>
-                  </li>
-                  <li><span className="icon solid fa-cog"><span className="label">Feature 6</span></span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-              <section classname="wrapper style1 container special">
-                <div classname="row">
-                  <div classname="col-4 col-12-narrower" id="meta-char">
+                <div className="row gtr-50">
+                  <div className="col-8 col-12-narrower">
+                    <header>
+                      <h2>Want to get inspiration on AI user experience?</h2>
+                    </header>
+                    <p>
+                      The interaction pattern covers a wide range of categories
+                      with diverse styles around the Android Applications.
+                    </p>
+                    <footer>
+                      <ul className="buttons">
+                        <br />
+                        <li>
+                          <a href="#meta-char" className="button">
+                            Find Out More
+                          </a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </div>
+                  <div className="col-4 col-12-narrower imp-narrower">
+                    <ul className="featured-icons">
+                      <li>
+                        <span className="icon fa-clock">
+                          <span className="label">Feature 1</span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon solid fa-volume-up">
+                          <span className="label">Feature 2</span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon solid fa-laptop">
+                          <span className="label">Feature 3</span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon solid fa-inbox">
+                          <span className="label">Feature 4</span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon solid fa-lock">
+                          <span className="label">Feature 5</span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon solid fa-cog">
+                          <span className="label">Feature 6</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              {/* section 3 cards */}
+              <section class="wrapper style1 container special">
+                <div class="row">
+                  <div class="col-4 col-12-narrower" id="meta-char">
                     <section>
-                      <span classname="icon solid featured fa-check" />
+                      <span></span>
                       <header>
+                        <img
+                          src="https://cdn-icons-png.flaticon.com/512/3843/3843517.png"
+                          style={{ width: "100px" }}
+                        />
                         <h3>App Category</h3>
                       </header>
                       <p>
@@ -141,10 +156,14 @@ export default function Home() {
                       </p>
                     </section>
                   </div>
-                  <div classname="col-4 col-12-narrower">
+                  <div class="col-4 col-12-narrower">
                     <section>
-                      <span classname="icon solid featured fa-check" />
+                      <span></span>
                       <header>
+                        <img
+                          src="https://cdn-icons.flaticon.com/png/512/3112/premium/3112425.png?token=exp=1643331967~hmac=851bcf6b4f6dfd0a62cd8a2a9ed56396"
+                          style={{ width: "100px" }}
+                        />
                         <a href="ai_model.html">
                           <h3>Model Functionalities</h3>
                         </a>
@@ -156,10 +175,14 @@ export default function Home() {
                       </p>
                     </section>
                   </div>
-                  <div classname="col-4 col-12-narrower">
+                  <div class="col-4 col-12-narrower">
                     <section>
-                      <span classname="icon solid featured fa-check" />
+                      <span></span>
                       <header>
+                        <img
+                          src="https://cdn-icons-png.flaticon.com/512/2818/2818069.png"
+                          style={{ width: "100px" }}
+                        />
                         <a href="tutorial.html">
                           <h3>Interaction Style</h3>
                         </a>
@@ -172,20 +195,22 @@ export default function Home() {
                   </div>
                 </div>
               </section>
-              <section
-                classname="wrapper style3 container special"
+
+              {/* Section of 4 background */}
+              {/* <section
+                className="wrapper style3 container special"
                 id="tutorial"
               >
-                <header classname="major">
+                <header className="major">
                   <h2>
                     Next look at this <strong>cool stuff</strong>
                   </h2>
                 </header>
-                <div classname="row">
-                  <div classname="col-6 col-12-narrower">
+                <div className="row">
+                  <div className="col-6 col-12-narrower">
                     <section>
-                      <a href="#" classname="image featured">
-                        <img src={pic01} alt="" />
+                      <a href="#" className="image featured">
+                        <img src="images/pic01.jpg" alt="" />
                       </a>
                       <header>
                         <h3>A Really Fast Train</h3>
@@ -198,10 +223,10 @@ export default function Home() {
                       </p>
                     </section>
                   </div>
-                  <div classname="col-6 col-12-narrower">
+                  <div className="col-6 col-12-narrower">
                     <section>
-                      <a href="#" classname="image featured">
-                        <img src={pic02} alt="" />
+                      <a href="#" className="image featured">
+                        <img src="images/pic02.jpg" alt="" />
                       </a>
                       <header>
                         <h3>An Airport Terminal</h3>
@@ -215,11 +240,11 @@ export default function Home() {
                     </section>
                   </div>
                 </div>
-                <div classname="row">
-                  <div classname="col-6 col-12-narrower">
+                <div className="row">
+                  <div className="col-6 col-12-narrower">
                     <section>
-                      <a href="#" classname="image featured">
-                        <img src={pic03} alt="" />
+                      <a href="#" className="image featured">
+                        <img src="images/pic03.jpg" alt="" />
                       </a>
                       <header>
                         <h3>Hyperspace Travel</h3>
@@ -232,9 +257,9 @@ export default function Home() {
                       </p>
                     </section>
                   </div>
-                  <div classname="col-6 col-12-narrower">
+                  <div className="col-6 col-12-narrower">
                     <section>
-                      <a href="#" classname="image featured">
+                      <a href="#" className="image featured">
                         <img src="images/pic04.jpg" alt="" />
                       </a>
                       <header>
@@ -249,17 +274,18 @@ export default function Home() {
                     </section>
                   </div>
                 </div>
-                <footer classname="major">
-                  <ul classname="buttons">
+                <footer className="major">
+                  <ul className="buttons">
                     <li>
-                      <a href="#" classname="button">
+                      <a href="#" className="button">
                         See More
                       </a>
                     </li>
                   </ul>
                 </footer>
-              </section>
+              </section> */}
             </article>
+            {/* ready */}
             <section id="cta">
               <header>
                 <h2>
@@ -268,64 +294,22 @@ export default function Home() {
                 <p>Enjoy Your Every Moments With this gallery!</p>
               </header>
               <footer>
-                <ul classname="buttons">
+                <ul class="buttons">
                   <li>
-                    <a href="search.html" classname="button primary">
+                    <a href="search.html" class="button primary">
                       Yes, I am ready!
                     </a>
                   </li>
                   <li>
-                    <a href="tutorial.html" classname="button">
+                    <a href="tutorial.html" class="button">
                       No, I need a guide!
                     </a>
                   </li>
                 </ul>
               </footer>
             </section>
-            <footer id="footer">
-              <ul classname="icons">
-                <li>
-                  <a href="#" classname="icon brands circle fa-twitter">
-                    <span classname="label">Twitter</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" classname="icon brands circle fa-facebook-f">
-                    <span classname="label">Facebook</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" classname="icon brands circle fa-google-plus-g">
-                    <span classname="label">Google+</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" classname="icon brands circle fa-github">
-                    <span classname="label">Github</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" classname="icon brands circle fa-dribbble">
-                    <span classname="label">Dribbble</span>
-                  </a>
-                </li>
-              </ul>
-              <ul classname="copyright">
-                <li>© All rights reserved</li>
-                <li>
-                  Design: <a href="index.html">Interaction Gallery</a>
-                </li>
-              </ul>
-
-            </footer>
-
-
-          
-
           </div>
-
         </div>
-        );
       </div>
     </div>
   );

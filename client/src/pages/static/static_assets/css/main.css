@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -24,7 +25,8 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	font-family:'Bungee Inline';
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -77,6 +79,8 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		overflow-y: scroll; overflow-x: hidden;
+
 	}
 
 	*, *:before, *:after {
@@ -114,7 +118,7 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		color: #3fb1a3;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 	}
 
 		a:hover {
@@ -2538,7 +2542,7 @@ padding-right: 7rem;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
-		padding-left: 80px;
+		padding-left: 24px;
 		text-align: center;
 		margin-left: -10rem ;
 		width: 84rem;
@@ -2648,7 +2652,7 @@ padding-right: 7rem;
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		/* background: #E8EEF4; */
 		color: #7c8081;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
@@ -2750,6 +2754,8 @@ padding-right: 7rem;
 			#cta {
 				padding: 4em;
 				background-attachment: scroll;
+				margin-left: -7rem;
+				margin-right: -7rem;
 			}
 
 		/* Footer */
@@ -3395,3 +3401,6 @@ padding-right: 7rem;
 		height:50px; /* or whatever */
 	  }
 
+
+
+	  

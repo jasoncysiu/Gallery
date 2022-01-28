@@ -20,6 +20,9 @@ export default function SearchBox({
 
   return (
     <div>
+      <body>
+        
+
       <div className="container">
         <div className="row">
           <div className="col-1"></div>
@@ -144,6 +147,7 @@ export default function SearchBox({
           <div className="col-1"></div>
         </div>
       </div>
+      </body>
     </div>
   );
 }
